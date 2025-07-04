@@ -1,13 +1,30 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "branchPrefix": "renovate/",
+  "baseBranches": ["main"],
+  "automergeType": "pr",
+  "prHourlyLimit": 0,
+  "enabledManagers": [
+    "rpm"
+  ],
+  "packageRules": [
+    {
+      "matchManagers": ["rpm"],
+      "matchBaseBranches": ["main"],
+      "groupName": "RPM Updates",
+      "commitMessageTopic": "RPM updates",
+      "enabled": true,
+      "schedule": [
+         "at any time"
+      ],
+      "branchPrefix": "renovate/rpm/",
+      "semanticCommits": "enabled"
+    }
+  ],
   "rpm": {
     "schedule": [
       "at any time"
     ]
-  },
-  "lockFileMaintenance": {
-    "enabled": true,
-    "automerge": true,
-    "automergeType": "branch"
   }
 }
