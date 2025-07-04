@@ -16,10 +16,12 @@
       "commitMessageTopic": "RPM updates",
       "enabled": true,
       "schedule": [
-         "at any time"
+        "at any time"
       ],
       "branchPrefix": "renovate/rpm/",
-      "semanticCommits": "enabled"
+      "semanticCommits": "enabled",
+      "automerge": "true",
+      "automergeType": "branch"
     }
   ],
   "rpm": {
