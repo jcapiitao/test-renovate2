@@ -8,6 +8,9 @@
   "lockFileMaintenance": {
     "enabled": true,
     "automerge": true,
-    "automergeType": "branch"
+    "automergeType": "branch",
+    "schedule": [
+      "at any time"
+    ]
   }
 }
