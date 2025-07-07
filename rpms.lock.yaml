@@ -6787,13 +6787,13 @@ arches:
     name: tinysparql
     evr: 3.9.2-1.fc42
     sourcerpm: tinysparql-3.9.2-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/t/tiwilink-firmware-20250627-1.fc42.noarch.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/t/tiwilink-firmware-20250613-1.fc42.noarch.rpm
     repoid: updates
-    size: 4844909
-    checksum: sha256:875a4198b36f214a00b889c2f0c37d479e1360f1e3b4fbd7b35ac4c2c05a5877
+    size: 4844501
+    checksum: sha256:fc436a583d25213d52e07ada876a8875bbdc56fc238c88aae31ebe79e48f9058
     name: tiwilink-firmware
-    evr: 20250627-1.fc42
-    sourcerpm: linux-firmware-20250627-1.fc42.src.rpm
+    evr: 20250613-1.fc42
+    sourcerpm: linux-firmware-20250613-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/u/unbound-anchor-1.23.0-3.fc42.x86_64.rpm
     repoid: updates
     size: 38489

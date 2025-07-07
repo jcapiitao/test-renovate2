@@ -3,7 +3,7 @@
   "extends": ["config:recommended"],
   "branchPrefix": "renovate/",
   "baseBranches": ["main"],
-  "automergeType": "pr",
+  "automergeType": "branch",
   "prHourlyLimit": 0,
   "enabledManagers": [
     "rpm"
@@ -20,8 +20,7 @@
       ],
       "branchPrefix": "renovate/rpm/",
       "semanticCommits": "enabled",
-      "automerge": "true",
-      "automergeType": "branch"
+      "automerge": "true"
     }
   ],
   "rpm": {
