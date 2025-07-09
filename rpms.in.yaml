@@ -197,4 +197,3 @@ packages:
       only:
         - ppc64le
         - s390x
-  - zip
