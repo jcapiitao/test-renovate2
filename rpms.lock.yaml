@@ -347,13 +347,6 @@ arches:
     name: dbus
     evr: 1:1.16.0-3.fc42
     sourcerpm: dbus-1.16.0-3.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/releases/42/Everything/x86_64/os/Packages/d/dbus-broker-36-5.fc42.x86_64.rpm
-    repoid: fedora
-    size: 178304
-    checksum: sha256:8ab6f5750243d0840d59d1cacff4d18397eb722c9494a8d1ff59bf32689e3541
-    name: dbus-broker
-    evr: 36-5.fc42
-    sourcerpm: dbus-broker-36-5.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/releases/42/Everything/x86_64/os/Packages/d/dbus-common-1.16.0-3.fc42.noarch.rpm
     repoid: fedora
     size: 14800
@@ -760,13 +753,6 @@ arches:
     name: glib-networking
     evr: 2.80.1-1.fc42
     sourcerpm: glib-networking-2.80.1-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/releases/42/Everything/x86_64/os/Packages/g/glusterfs-client-xlators-11.1-8.fc42.x86_64.rpm
-    repoid: fedora
-    size: 791942
-    checksum: sha256:6180d96ed675ec5bb98b7454c824eda4bc1cb91b78cac5dddeaa6f10b34874be
-    name: glusterfs-client-xlators
-    evr: 11.1-8.fc42
-    sourcerpm: glusterfs-11.1-8.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/releases/42/Everything/x86_64/os/Packages/g/gnat-srpm-macros-6-7.fc42.noarch.rpm
     repoid: fedora
     size: 8818
@@ -1551,34 +1537,6 @@ arches:
     name: libgcrypt
     evr: 1.11.0-5.fc42
     sourcerpm: libgcrypt-1.11.0-5.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/releases/42/Everything/x86_64/os/Packages/l/libgfapi0-11.1-8.fc42.x86_64.rpm
-    repoid: fedora
-    size: 97976
-    checksum: sha256:897345c1948302bcaba27751243d25cde94c4cdcf7e352d3db4370546b8d0778
-    name: libgfapi0
-    evr: 11.1-8.fc42
-    sourcerpm: glusterfs-11.1-8.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/releases/42/Everything/x86_64/os/Packages/l/libgfrpc0-11.1-8.fc42.x86_64.rpm
-    repoid: fedora
-    size: 51865
-    checksum: sha256:646252e8fbe16de7437c042467a3bb95a814827c12f08d9f9becdb3b112cfabe
-    name: libgfrpc0
-    evr: 11.1-8.fc42
-    sourcerpm: glusterfs-11.1-8.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/releases/42/Everything/x86_64/os/Packages/l/libgfxdr0-11.1-8.fc42.x86_64.rpm
-    repoid: fedora
-    size: 25301
-    checksum: sha256:469224a9376ea04d8b9dab3e604e975da232eebea9a402ed7730009184a52a17
-    name: libgfxdr0
-    evr: 11.1-8.fc42
-    sourcerpm: glusterfs-11.1-8.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/releases/42/Everything/x86_64/os/Packages/l/libglusterfs0-11.1-8.fc42.x86_64.rpm
-    repoid: fedora
-    size: 293564
-    checksum: sha256:f6170a55be7a974151efb7f16da8e1fb250191a153cef4e204d383dd899eee97
-    name: libglusterfs0
-    evr: 11.1-8.fc42
-    sourcerpm: glusterfs-11.1-8.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/releases/42/Everything/x86_64/os/Packages/l/libglvnd-1.7.0-7.fc42.x86_64.rpm
     repoid: fedora
     size: 117148
@@ -2538,13 +2496,6 @@ arches:
     name: package-notes-srpm-macros
     evr: 0.5-13.fc42
     sourcerpm: package-notes-0.5-13.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/releases/42/Everything/x86_64/os/Packages/p/pango-1.56.3-1.fc42.x86_64.rpm
-    repoid: fedora
-    size: 356645
-    checksum: sha256:26de3019456241cfc04405a219c93745af3905f74191d98886b4934a46887627
-    name: pango
-    evr: 1.56.3-1.fc42
-    sourcerpm: pango-1.56.3-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/releases/42/Everything/x86_64/os/Packages/p/paper-2.1.1-8.fc42.x86_64.rpm
     repoid: fedora
     size: 30850
@@ -3581,13 +3532,6 @@ arches:
     name: python3-referencing
     evr: 0.36.2-1.fc42
     sourcerpm: python-referencing-0.36.2-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/releases/42/Everything/x86_64/os/Packages/p/python3-requests-2.32.3-4.fc42.noarch.rpm
-    repoid: fedora
-    size: 163384
-    checksum: sha256:807b12375091a925b0c0533d5b494e157ea87582d7cc317d8129bf5f848cf2a0
-    name: python3-requests
-    evr: 2.32.3-4.fc42
-    sourcerpm: python-requests-2.32.3-4.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/releases/42/Everything/x86_64/os/Packages/p/python3-requests-gssapi-1.2.3-14.fc42.noarch.rpm
     repoid: fedora
     size: 28824
@@ -4295,20 +4239,20 @@ arches:
     name: alsa-lib
     evr: 1.2.14-3.fc42
     sourcerpm: alsa-lib-1.2.14-3.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/a/amd-gpu-firmware-20250627-1.fc42.noarch.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/a/amd-gpu-firmware-20250708-1.fc42.noarch.rpm
     repoid: updates
-    size: 26806818
-    checksum: sha256:eccf7a67dbda7151a2088ab0a996b5789d39f485e411be55ada229ec674026ec
+    size: 27362671
+    checksum: sha256:192843c82df5e1812f504de89a47f1282319f66b5b13d2b5e25a00abc9d58cdf
     name: amd-gpu-firmware
-    evr: 20250627-1.fc42
-    sourcerpm: linux-firmware-20250627-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/a/amd-ucode-firmware-20250627-1.fc42.noarch.rpm
+    evr: 20250708-1.fc42
+    sourcerpm: linux-firmware-20250708-1.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/a/amd-ucode-firmware-20250708-1.fc42.noarch.rpm
     repoid: updates
-    size: 369789
-    checksum: sha256:df9008cd9523b5868ec6a87ccd5671f73790924d57353b552b91f551f71f1868
+    size: 379875
+    checksum: sha256:c62a330c4ec7f44147c418890441edce2135a304160af71a5a5059762a28dce5
     name: amd-ucode-firmware
-    evr: 20250627-1.fc42
-    sourcerpm: linux-firmware-20250627-1.fc42.src.rpm
+    evr: 20250708-1.fc42
+    sourcerpm: linux-firmware-20250708-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/a/annobin-docs-12.94-1.fc42.noarch.rpm
     repoid: updates
     size: 92597
@@ -4337,13 +4281,13 @@ arches:
     name: at-spi2-core
     evr: 2.56.3-1.fc42
     sourcerpm: at-spi2-core-2.56.3-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/a/atheros-firmware-20250627-1.fc42.noarch.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/a/atheros-firmware-20250708-1.fc42.noarch.rpm
     repoid: updates
-    size: 38515433
-    checksum: sha256:e7565df5d38763fdf1229f8d8374110c9d64c897cb35d0cb6213959ce6b7ab70
+    size: 38516554
+    checksum: sha256:aebe338ca2112cdb93163a8b2b5ae9af797f9774871ddd85aab942f776bda744
     name: atheros-firmware
-    evr: 20250627-1.fc42
-    sourcerpm: linux-firmware-20250627-1.fc42.src.rpm
+    evr: 20250708-1.fc42
+    sourcerpm: linux-firmware-20250708-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/a/atk-2.56.3-1.fc42.x86_64.rpm
     repoid: updates
     size: 82049
@@ -4351,13 +4295,13 @@ arches:
     name: atk
     evr: 2.56.3-1.fc42
     sourcerpm: at-spi2-core-2.56.3-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/b/bluez-libs-5.83-1.fc42.x86_64.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/b/bluez-libs-5.83-2.fc42.x86_64.rpm
     repoid: updates
-    size: 85627
-    checksum: sha256:ef7ba54b4fbe39b966b92f06b4209d08321720052522ea61705990f33db5ca42
+    size: 85453
+    checksum: sha256:a5dfa561183cab88b41ee77c635586113312a1107ff9e2a9b1db2c4d1a41a16b
     name: bluez-libs
-    evr: 5.83-1.fc42
-    sourcerpm: bluez-5.83-1.fc42.src.rpm
+    evr: 5.83-2.fc42
+    sourcerpm: bluez-5.83-2.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/b/bootc-1.4.0-1.fc42.x86_64.rpm
     repoid: updates
     size: 2896349
@@ -4365,20 +4309,20 @@ arches:
     name: bootc
     evr: 1.4.0-1.fc42
     sourcerpm: bootc-1.4.0-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/b/bootupd-0.2.27-2.fc42.x86_64.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/b/bootupd-0.2.28-2.fc42.x86_64.rpm
     repoid: updates
-    size: 1287784
-    checksum: sha256:320bcd5f4566a10819e4274c8203ee996b6235b0adfd711776e8cb6045cd59f1
+    size: 1305310
+    checksum: sha256:0a7d3d7b69563d64c6b586fd900b7971ed09894a5ffb9e0906b2c144ea12b636
     name: bootupd
-    evr: 0.2.27-2.fc42
-    sourcerpm: rust-bootupd-0.2.27-2.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/b/brcmfmac-firmware-20250627-1.fc42.noarch.rpm
+    evr: 0.2.28-2.fc42
+    sourcerpm: rust-bootupd-0.2.28-2.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/b/brcmfmac-firmware-20250708-1.fc42.noarch.rpm
     repoid: updates
-    size: 10050535
-    checksum: sha256:75465f0d8e1154cb8662f28d17086085e1d891c4d1e4dbb4aa8b35cb63fcb816
+    size: 10051211
+    checksum: sha256:dc1d4eaacc5e018ea7df12f462899914ba0c1bfc8b5cd30f6db3e06bf44891a5
     name: brcmfmac-firmware
-    evr: 20250627-1.fc42
-    sourcerpm: linux-firmware-20250627-1.fc42.src.rpm
+    evr: 20250708-1.fc42
+    sourcerpm: linux-firmware-20250708-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/b/btrfs-progs-6.15-1.fc42.x86_64.rpm
     repoid: updates
     size: 1339968
@@ -4400,20 +4344,20 @@ arches:
     name: butane
     evr: 0.24.0-1.fc42
     sourcerpm: butane-0.24.0-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/c/cirrus-audio-firmware-20250627-1.fc42.noarch.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/c/cirrus-audio-firmware-20250708-1.fc42.noarch.rpm
     repoid: updates
-    size: 1863658
-    checksum: sha256:acd73b737f5061aab651ed17bd7adc64695ba47dd5b17e214cdc9fe70ba6de6c
+    size: 1863808
+    checksum: sha256:4eeecb4ab8b2e5580f283b836ccfccfaeb8fd36fdd69cda9c1216002811a9325
     name: cirrus-audio-firmware
-    evr: 20250627-1.fc42
-    sourcerpm: linux-firmware-20250627-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/c/container-selinux-2.238.0-1.fc42.noarch.rpm
+    evr: 20250708-1.fc42
+    sourcerpm: linux-firmware-20250708-1.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/c/container-selinux-2.239.0-1.fc42.noarch.rpm
     repoid: updates
-    size: 59418
-    checksum: sha256:d6b5cce9f92d1f15628dff70724cbb6b06b70aeab61292983f23a68839cbc663
+    size: 59464
+    checksum: sha256:98b653c34e8d68e020400ae34d600d056d0b8f000314f225cc20214b4e301d22
     name: container-selinux
-    evr: 4:2.238.0-1.fc42
-    sourcerpm: container-selinux-2.238.0-1.fc42.src.rpm
+    evr: 4:2.239.0-1.fc42
+    sourcerpm: container-selinux-2.239.0-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/c/containers-common-0.63.1-1.fc42.noarch.rpm
     repoid: updates
     size: 100111
@@ -4505,6 +4449,13 @@ arches:
     name: daxctl-libs
     evr: 82-1.fc42
     sourcerpm: ndctl-82-1.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/d/dbus-broker-36-6.fc42.x86_64.rpm
+    repoid: updates
+    size: 176527
+    checksum: sha256:839d916e462f8ccdf72f830840035e37cc07aba0836d61ac2eea82130f2bb9db
+    name: dbus-broker
+    evr: 36-6.fc42
+    sourcerpm: dbus-broker-36-6.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/d/debugedit-5.1-7.fc42.x86_64.rpm
     repoid: updates
     size: 80669
@@ -4589,13 +4540,13 @@ arches:
     name: elfutils-debuginfod-client
     evr: 0.193-2.fc42
     sourcerpm: elfutils-0.193-2.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/e/erofs-utils-1.8.6-1.fc42.x86_64.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/e/erofs-utils-1.8.9-1.fc42.x86_64.rpm
     repoid: updates
-    size: 171741
-    checksum: sha256:44815d45eb492f7df9d6dac4b1d3399afbeeee83788af76825e28fca9b55df44
+    size: 175402
+    checksum: sha256:73983ab693e3d6e71cb5fa3b0cd5c2c81a0f3335e628227934b17eb56aeb5195
     name: erofs-utils
-    evr: 1.8.6-1.fc42
-    sourcerpm: erofs-utils-1.8.6-1.fc42.src.rpm
+    evr: 1.8.9-1.fc42
+    sourcerpm: erofs-utils-1.8.9-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/f/fedora-messaging-3.7.1-1.fc42.noarch.rpm
     repoid: updates
     size: 30705
@@ -4694,6 +4645,13 @@ arches:
     name: glibc-gconv-extra
     evr: 2.41-8.fc42
     sourcerpm: glibc-2.41-8.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/g/glusterfs-client-xlators-11.2-1.fc42.x86_64.rpm
+    repoid: updates
+    size: 787602
+    checksum: sha256:062374062e25327b1dc18b442fb4a870a5972d8977603ae72151738bda499b4d
+    name: glusterfs-client-xlators
+    evr: 11.2-1.fc42
+    sourcerpm: glusterfs-11.2-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/g/golang-1.24.4-1.fc42.x86_64.rpm
     repoid: updates
     size: 687413
@@ -4799,20 +4757,20 @@ arches:
     name: ignition-validate
     evr: 2.21.0-2.fc42
     sourcerpm: ignition-2.21.0-2.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/i/intel-audio-firmware-20250627-1.fc42.noarch.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/i/intel-audio-firmware-20250708-1.fc42.noarch.rpm
     repoid: updates
-    size: 3408400
-    checksum: sha256:debf9c3d0fbf272ac17cb3de6121f76c532a6a3b64290ba624c2b4c3f911684d
+    size: 3409022
+    checksum: sha256:b250ca114877fa130332aa2577dd3b5a0d79882dae63f8b2704f0a397574f4c0
     name: intel-audio-firmware
-    evr: 20250627-1.fc42
-    sourcerpm: linux-firmware-20250627-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/i/intel-gpu-firmware-20250627-1.fc42.noarch.rpm
+    evr: 20250708-1.fc42
+    sourcerpm: linux-firmware-20250708-1.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/i/intel-gpu-firmware-20250708-1.fc42.noarch.rpm
     repoid: updates
-    size: 9245791
-    checksum: sha256:139f31ced9b507928f8b56196eb6e8ab71b00452a76d645c82c3507c2c7b3245
+    size: 9246467
+    checksum: sha256:80d1f77745eca3c32f934f1459c9b20f0b5c3ec5ca7feb36a6e3cab08f20afcc
     name: intel-gpu-firmware
-    evr: 20250627-1.fc42
-    sourcerpm: linux-firmware-20250627-1.fc42.src.rpm
+    evr: 20250708-1.fc42
+    sourcerpm: linux-firmware-20250708-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/i/intel-vpl-gpu-rt-25.2.5-1.fc42.x86_64.rpm
     repoid: updates
     size: 2526161
@@ -4960,6 +4918,34 @@ arches:
     name: libgexiv2
     evr: 0.14.5-1.fc42
     sourcerpm: libgexiv2-0.14.5-1.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/l/libgfapi0-11.2-1.fc42.x86_64.rpm
+    repoid: updates
+    size: 97228
+    checksum: sha256:6fd6b3856e95cad399cf681c622d1d4677226c196b1957d710c352007e8562b3
+    name: libgfapi0
+    evr: 11.2-1.fc42
+    sourcerpm: glusterfs-11.2-1.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/l/libgfrpc0-11.2-1.fc42.x86_64.rpm
+    repoid: updates
+    size: 51203
+    checksum: sha256:0e4eba637c372a65bccdb721abc88c579bf9b23df7913ba39254b9ec999601a2
+    name: libgfrpc0
+    evr: 11.2-1.fc42
+    sourcerpm: glusterfs-11.2-1.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/l/libgfxdr0-11.2-1.fc42.x86_64.rpm
+    repoid: updates
+    size: 24962
+    checksum: sha256:899cfa3165f579ed3e65e2bac8d4385a21ec7b03dc69d8f1d37fea44d2031d52
+    name: libgfxdr0
+    evr: 11.2-1.fc42
+    sourcerpm: glusterfs-11.2-1.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/l/libglusterfs0-11.2-1.fc42.x86_64.rpm
+    repoid: updates
+    size: 291325
+    checksum: sha256:81292989e4536f085b6c42ba065b3240be67af97dd4029995e05931f33b7dc7c
+    name: libglusterfs0
+    evr: 11.2-1.fc42
+    sourcerpm: glusterfs-11.2-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/l/libguestfs-1.56.1-1.fc42.x86_64.rpm
     repoid: updates
     size: 1199578
@@ -4988,13 +4974,13 @@ arches:
     name: libkadm5
     evr: 1.21.3-6.fc42
     sourcerpm: krb5-1.21.3-6.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/l/libldb-4.22.2-1.fc42.x86_64.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/l/libldb-4.22.3-2.fc42.x86_64.rpm
     repoid: updates
-    size: 194021
-    checksum: sha256:44a3a187d97f073c992d1b4a9ef7b7df2b30e3e697d2033678c71de4f74df55e
+    size: 193935
+    checksum: sha256:374e8600aa207b5324b628168dbf329a65592e130bfedc2000e45df6fa3bce13
     name: libldb
-    evr: 2:4.22.2-1.fc42
-    sourcerpm: samba-4.22.2-1.fc42.src.rpm
+    evr: 2:4.22.3-2.fc42
+    sourcerpm: samba-4.22.3-2.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/l/libnbd-1.22.2-1.fc42.x86_64.rpm
     repoid: updates
     size: 177938
@@ -5044,13 +5030,13 @@ arches:
     name: libselinux-utils
     evr: 3.8-2.fc42
     sourcerpm: libselinux-3.8-2.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/l/libsmbclient-4.22.2-1.fc42.x86_64.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/l/libsmbclient-4.22.3-2.fc42.x86_64.rpm
     repoid: updates
-    size: 81019
-    checksum: sha256:dcc89c766ec2f10dae901d769bebf08a6f62695a884563dbdca56a94223a231b
+    size: 80553
+    checksum: sha256:f143a7f12115f39a982fba9deb58e2857e54456ff7ece556828168296f07f6ac
     name: libsmbclient
-    evr: 2:4.22.2-1.fc42
-    sourcerpm: samba-4.22.2-1.fc42.src.rpm
+    evr: 2:4.22.3-2.fc42
+    sourcerpm: samba-4.22.3-2.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/l/libswresample-free-7.1.1-4.fc42.x86_64.rpm
     repoid: updates
     size: 69492
@@ -5191,13 +5177,13 @@ arches:
     name: libwayland-server
     evr: 1.23.1-1.fc42
     sourcerpm: wayland-1.23.1-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/l/libwbclient-4.22.2-1.fc42.x86_64.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/l/libwbclient-4.22.3-2.fc42.x86_64.rpm
     repoid: updates
-    size: 48915
-    checksum: sha256:d476585c153d5bb77f6ddb969944c2fbabdf317c608e2da0e4f2b85050cfcae1
+    size: 48555
+    checksum: sha256:7aa591dd4e3d90095645d076d4cf123e159f2c67eb63539060feb8fd09281780
     name: libwbclient
-    evr: 2:4.22.2-1.fc42
-    sourcerpm: samba-4.22.2-1.fc42.src.rpm
+    evr: 2:4.22.3-2.fc42
+    sourcerpm: samba-4.22.3-2.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/l/libxcrypt-devel-4.4.38-7.fc42.x86_64.rpm
     repoid: updates
     size: 30079
@@ -5212,34 +5198,34 @@ arches:
     name: libxdp
     evr: 1.5.5-1.fc42
     sourcerpm: xdp-tools-1.5.5-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/l/linux-firmware-20250627-1.fc42.noarch.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/l/linux-firmware-20250708-1.fc42.noarch.rpm
     repoid: updates
-    size: 45019438
-    checksum: sha256:6cc52bf25d58b37d6d8c268dd47668527f8594118882bd4bdd6014445cc6a0c3
+    size: 44937262
+    checksum: sha256:d50dfe2e00406c0407c6dda9d29adb99a4ca26597bc0234a03ba998b7db72624
     name: linux-firmware
-    evr: 20250627-1.fc42
-    sourcerpm: linux-firmware-20250627-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/l/linux-firmware-whence-20250627-1.fc42.noarch.rpm
+    evr: 20250708-1.fc42
+    sourcerpm: linux-firmware-20250708-1.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/l/linux-firmware-whence-20250708-1.fc42.noarch.rpm
     repoid: updates
-    size: 64166
-    checksum: sha256:1c4eaa6a2f6e7d51aead8c505dbfc2adc98297b75a12401b1d4fd84aeadb70b1
+    size: 64980
+    checksum: sha256:c402107e5573f5c2f6285288433508d7eccb4f1c5714bb10f37760448370e3ca
     name: linux-firmware-whence
-    evr: 20250627-1.fc42
-    sourcerpm: linux-firmware-20250627-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/l/llvm-filesystem-20.1.7-1.fc42.x86_64.rpm
+    evr: 20250708-1.fc42
+    sourcerpm: linux-firmware-20250708-1.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/l/llvm-filesystem-20.1.8-1.fc42.x86_64.rpm
     repoid: updates
-    size: 15296
-    checksum: sha256:c97c0b3d0c6f3736ec9af2016471fe7425ef0d43fe79317a983d72ea783819a1
+    size: 15371
+    checksum: sha256:92446b0de56b3522bea72d6012118c9d6512cfe42d90fe49950a7c67ec67b2c5
     name: llvm-filesystem
-    evr: 20.1.7-1.fc42
-    sourcerpm: llvm-20.1.7-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/l/llvm-libs-20.1.7-1.fc42.x86_64.rpm
+    evr: 20.1.8-1.fc42
+    sourcerpm: llvm-20.1.8-1.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/l/llvm-libs-20.1.8-1.fc42.x86_64.rpm
     repoid: updates
-    size: 35145404
-    checksum: sha256:bb23bdc01a52562cbbe4fdcc3f74fc4678381011e7e6bb7f181c4767aa0f1dcc
+    size: 35138150
+    checksum: sha256:92632b057c23f3f63173854b1362ebccf89de863de3da3f1481516f2fd873727
     name: llvm-libs
-    evr: 20.1.7-1.fc42
-    sourcerpm: llvm-20.1.7-1.fc42.src.rpm
+    evr: 20.1.8-1.fc42
+    sourcerpm: llvm-20.1.8-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/m/mbedtls-3.6.4-1.fc42.x86_64.rpm
     repoid: updates
     size: 523162
@@ -5317,13 +5303,13 @@ arches:
     name: mpg123-libs
     evr: 1.32.10-1.fc42
     sourcerpm: mpg123-1.32.10-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/m/mt7xxx-firmware-20250627-1.fc42.noarch.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/m/mt7xxx-firmware-20250708-1.fc42.noarch.rpm
     repoid: updates
-    size: 20368370
-    checksum: sha256:55772eafb6a7bac3bec16d3f078fb4bf0670d2e0145da868daeda2341f90d9a6
+    size: 20369544
+    checksum: sha256:de9feb712174dc15dc8382bcef8948b5296103d00a54ab2eeddffe3de4338ea0
     name: mt7xxx-firmware
-    evr: 20250627-1.fc42
-    sourcerpm: linux-firmware-20250627-1.fc42.src.rpm
+    evr: 20250708-1.fc42
+    sourcerpm: linux-firmware-20250708-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/m/mtools-4.0.49-1.fc42.x86_64.rpm
     repoid: updates
     size: 228051
@@ -5401,48 +5387,48 @@ arches:
     name: nfs-utils
     evr: 1:2.8.3-2.rc3.fc42
     sourcerpm: nfs-utils-2.8.3-2.rc3.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/n/nspr-4.36.0-9.fc42.x86_64.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/n/nspr-4.36.0-10.fc42.x86_64.rpm
     repoid: updates
-    size: 141013
-    checksum: sha256:722a66d8b4744bbbb683389de20177adc89efbec1dc9e88f5d4f198e13772530
+    size: 140795
+    checksum: sha256:11e5d470581f84729b22c97f2d9974ae82b10a7298d5bc9ae95e8024be1415a3
     name: nspr
-    evr: 4.36.0-9.fc42
-    sourcerpm: nss-3.112.0-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/n/nss-3.112.0-1.fc42.x86_64.rpm
+    evr: 4.36.0-10.fc42
+    sourcerpm: nss-3.113.0-1.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/n/nss-3.113.0-1.fc42.x86_64.rpm
     repoid: updates
-    size: 729080
-    checksum: sha256:6c6217909e061fc1257dff714c3994dd5c102fd24c97aa47c371680d66168b7d
+    size: 728995
+    checksum: sha256:113eb55b1867d2d811120ba49b178919b44c2966de2e595c5721f189ad7dc69f
     name: nss
-    evr: 3.112.0-1.fc42
-    sourcerpm: nss-3.112.0-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/n/nss-softokn-3.112.0-1.fc42.x86_64.rpm
+    evr: 3.113.0-1.fc42
+    sourcerpm: nss-3.113.0-1.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/n/nss-softokn-3.113.0-1.fc42.x86_64.rpm
     repoid: updates
-    size: 425220
-    checksum: sha256:b4d5e0a942a06410cf79182dd04de73082c500d2ea7fde49852aa629fce31aa3
+    size: 426448
+    checksum: sha256:1921247827c6603cbb94a35386e39bc3de7e01371224857451f5ca96cbfdbe68
     name: nss-softokn
-    evr: 3.112.0-1.fc42
-    sourcerpm: nss-3.112.0-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/n/nss-softokn-freebl-3.112.0-1.fc42.x86_64.rpm
+    evr: 3.113.0-1.fc42
+    sourcerpm: nss-3.113.0-1.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/n/nss-softokn-freebl-3.113.0-1.fc42.x86_64.rpm
     repoid: updates
-    size: 337022
-    checksum: sha256:eefecae6c7f1cf43d7333559627d20a23ae9a2d2cc9c81d69918d7e61bc9ff74
+    size: 336847
+    checksum: sha256:4d08f223edb9d2dde063898505907674f599dd55a969d1770690da266157a139
     name: nss-softokn-freebl
-    evr: 3.112.0-1.fc42
-    sourcerpm: nss-3.112.0-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/n/nss-sysinit-3.112.0-1.fc42.x86_64.rpm
+    evr: 3.113.0-1.fc42
+    sourcerpm: nss-3.113.0-1.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/n/nss-sysinit-3.113.0-1.fc42.x86_64.rpm
     repoid: updates
-    size: 19727
-    checksum: sha256:bd0f80b5645415a37cb0013cd6a31f0116631e9f0585ad1c3efa40f81dec2d55
+    size: 19429
+    checksum: sha256:45d734fc100be0aaf90a3538b55957023ff509817e839a9d95c7ccd0fd7c6504
     name: nss-sysinit
-    evr: 3.112.0-1.fc42
-    sourcerpm: nss-3.112.0-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/n/nss-util-3.112.0-1.fc42.x86_64.rpm
+    evr: 3.113.0-1.fc42
+    sourcerpm: nss-3.113.0-1.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/n/nss-util-3.113.0-1.fc42.x86_64.rpm
     repoid: updates
-    size: 87966
-    checksum: sha256:8f0582470a8f6e63241400ff0be9959f0310fbfff1492b5aeb0be198e8b2fae3
+    size: 87964
+    checksum: sha256:52e4eb9cc9782d6214535023e3c70ee76bf9dfc59d962fee4d5a838a2e5f7bb4
     name: nss-util
-    evr: 3.112.0-1.fc42
-    sourcerpm: nss-3.112.0-1.fc42.src.rpm
+    evr: 3.113.0-1.fc42
+    sourcerpm: nss-3.113.0-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/n/ntfs-3g-2022.10.3-9.fc42.x86_64.rpm
     repoid: updates
     size: 130837
@@ -5464,20 +5450,20 @@ arches:
     name: ntfsprogs
     evr: 2:2022.10.3-9.fc42
     sourcerpm: ntfs-3g-2022.10.3-9.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/n/nvidia-gpu-firmware-20250627-1.fc42.noarch.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/n/nvidia-gpu-firmware-20250708-1.fc42.noarch.rpm
     repoid: updates
-    size: 104073691
-    checksum: sha256:b362840c00e83a311083a4e0ea982e81359a1fa309f4b67882713babd43d843a
+    size: 104073273
+    checksum: sha256:f61b6cabf78477c5ea3ca61259adfd24ea2149727426221b00f5e4a00485a357
     name: nvidia-gpu-firmware
-    evr: 20250627-1.fc42
-    sourcerpm: linux-firmware-20250627-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/n/nxpwireless-firmware-20250627-1.fc42.noarch.rpm
+    evr: 20250708-1.fc42
+    sourcerpm: linux-firmware-20250708-1.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/n/nxpwireless-firmware-20250708-1.fc42.noarch.rpm
     repoid: updates
-    size: 953715
-    checksum: sha256:3a056a1e1638b436cdceb1e1cd7989808d15b7c0819f774bd6798e2ce5cda94b
+    size: 954359
+    checksum: sha256:9ff8d0650996ddd8953df1fd9ea06ee16ca4c59c9183fe7bf859323cdd584ed7
     name: nxpwireless-firmware
-    evr: 20250627-1.fc42
-    sourcerpm: linux-firmware-20250627-1.fc42.src.rpm
+    evr: 20250708-1.fc42
+    sourcerpm: linux-firmware-20250708-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/o/openssh-9.9p1-11.fc42.x86_64.rpm
     repoid: updates
     size: 362093
@@ -5520,6 +5506,13 @@ arches:
     name: osbuild-tools
     evr: 153-1.fc42
     sourcerpm: osbuild-153-1.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/pango-1.56.4-1.fc42.x86_64.rpm
+    repoid: updates
+    size: 359217
+    checksum: sha256:20beae16aa2dd37f9f46b7cdbbd56ee2ec1acfb722b6cfd8e6d6dd35c4097be8
+    name: pango
+    evr: 1.56.4-1.fc42
+    sourcerpm: pango-1.56.4-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/passt-0^20250611.g0293c6f-1.fc42.x86_64.rpm
     repoid: updates
     size: 273527
@@ -5555,90 +5548,90 @@ arches:
     name: pciutils-libs
     evr: 3.14.0-1.fc42
     sourcerpm: pciutils-3.14.0-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-AutoLoader-5.74-517.fc42.noarch.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-AutoLoader-5.74-518.fc42.noarch.rpm
     repoid: updates
-    size: 21989
-    checksum: sha256:52b67dbdf8bf0cd700be6cd16897102fd5356094ff0524215d28c2aa99c674c4
+    size: 21831
+    checksum: sha256:3e833225838bcb500a24657d3d2e35aa35763ad8a6f0425e76467b60fff48fad
     name: perl-AutoLoader
-    evr: 5.74-517.fc42
-    sourcerpm: perl-5.40.2-517.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-B-1.89-517.fc42.x86_64.rpm
+    evr: 5.74-518.fc42
+    sourcerpm: perl-5.40.2-518.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-B-1.89-518.fc42.x86_64.rpm
     repoid: updates
-    size: 181207
-    checksum: sha256:d29bfcebbbd3c692def04253b9be0b9446f2eb9de2e896531acab4397a265e66
+    size: 181005
+    checksum: sha256:752afe283011c9a72a18aa54a4d6e3c95a1f35f9c6a105d396b934aab51cf88f
     name: perl-B
-    evr: 1.89-517.fc42
-    sourcerpm: perl-5.40.2-517.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-Class-Struct-0.68-517.fc42.noarch.rpm
+    evr: 1.89-518.fc42
+    sourcerpm: perl-5.40.2-518.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-Class-Struct-0.68-518.fc42.noarch.rpm
     repoid: updates
-    size: 22838
-    checksum: sha256:b3e4b28068c85a8daca5fda10016f793c48a2ceb58c219ee0aaabfa76d23aa05
+    size: 22693
+    checksum: sha256:a47fe2f6f2e5b1b8f065aa5e5320ca710238b485bb682dd37b3c7ff212acd8e9
     name: perl-Class-Struct
-    evr: 0.68-517.fc42
-    sourcerpm: perl-5.40.2-517.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-DynaLoader-1.56-517.fc42.x86_64.rpm
+    evr: 0.68-518.fc42
+    sourcerpm: perl-5.40.2-518.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-DynaLoader-1.56-518.fc42.x86_64.rpm
     repoid: updates
-    size: 26919
-    checksum: sha256:a9a2011c6c507571fe212458a1ea1fd8947c8c6e81cff69e4765ac701d9ff117
+    size: 26768
+    checksum: sha256:44a3f88dcb9dde665e375e983f851648f43cfa44ab7e640b5d033e6c1328a5f9
     name: perl-DynaLoader
-    evr: 1.56-517.fc42
-    sourcerpm: perl-5.40.2-517.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-Errno-1.38-517.fc42.x86_64.rpm
+    evr: 1.56-518.fc42
+    sourcerpm: perl-5.40.2-518.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-Errno-1.38-518.fc42.x86_64.rpm
     repoid: updates
-    size: 15546
-    checksum: sha256:11735c549d10db1e37b0ede02d7082d7a1089982d959af33d4e121532ed8e7b2
+    size: 15392
+    checksum: sha256:9b4834144003e3d166b27561c85bb711d668391b987ac0eddac87e173350689b
     name: perl-Errno
-    evr: 1.38-517.fc42
-    sourcerpm: perl-5.40.2-517.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-Fcntl-1.18-517.fc42.x86_64.rpm
+    evr: 1.38-518.fc42
+    sourcerpm: perl-5.40.2-518.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-Fcntl-1.18-518.fc42.x86_64.rpm
     repoid: updates
-    size: 30791
-    checksum: sha256:41f644061cd6bf31d2f36cbdae232ae7dad0368ddfdf7f2c03efab1407dcf126
+    size: 30619
+    checksum: sha256:04ece825653d8566710aeba6b7ff5ac7fb88afc826b6cebb489c76c1643eb3e0
     name: perl-Fcntl
-    evr: 1.18-517.fc42
-    sourcerpm: perl-5.40.2-517.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-File-Basename-2.86-517.fc42.noarch.rpm
+    evr: 1.18-518.fc42
+    sourcerpm: perl-5.40.2-518.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-File-Basename-2.86-518.fc42.noarch.rpm
     repoid: updates
-    size: 17825
-    checksum: sha256:a107db218a88f6d8ce248f8d191f93ef534d813c029ba17b4b108909671364d6
+    size: 17656
+    checksum: sha256:5e0ce7ae338670dc6c400b3d77598c4c2978f5c41df11d89f4f10394741e267f
     name: perl-File-Basename
-    evr: 2.86-517.fc42
-    sourcerpm: perl-5.40.2-517.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-File-Copy-2.41-517.fc42.noarch.rpm
+    evr: 2.86-518.fc42
+    sourcerpm: perl-5.40.2-518.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-File-Copy-2.41-518.fc42.noarch.rpm
     repoid: updates
-    size: 20838
-    checksum: sha256:616ba9dc8c5967d4b4110289841d06231a5163c6533f1aca6504692d6d0479f0
+    size: 20686
+    checksum: sha256:ec5e13000af73ef94c42fb2e2626ee502d6551bf60ecafd0a6e83cfea26c8d67
     name: perl-File-Copy
-    evr: 2.41-517.fc42
-    sourcerpm: perl-5.40.2-517.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-File-Find-1.44-517.fc42.noarch.rpm
+    evr: 2.41-518.fc42
+    sourcerpm: perl-5.40.2-518.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-File-Find-1.44-518.fc42.noarch.rpm
     repoid: updates
-    size: 26167
-    checksum: sha256:8c3b33c5b08a0686dbbff8b9f373b665edc3b4e28acb1f63aab625c3c61069ad
+    size: 26038
+    checksum: sha256:29ab75918258e7097d47dd9ea1103c3d294c25eb5452a0a70cfdfc8b573f831e
     name: perl-File-Find
-    evr: 1.44-517.fc42
-    sourcerpm: perl-5.40.2-517.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-File-stat-1.14-517.fc42.noarch.rpm
+    evr: 1.44-518.fc42
+    sourcerpm: perl-5.40.2-518.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-File-stat-1.14-518.fc42.noarch.rpm
     repoid: updates
-    size: 17708
-    checksum: sha256:fb3fa29ff20a80872ebba52e9aec104e441676cea413daa2f49b2e0a8c83c7b7
+    size: 17550
+    checksum: sha256:79c2bfb887c464da36bdb92fed783fa79fb0e2d5d938b16eac06941ed82ee390
     name: perl-File-stat
-    evr: 1.14-517.fc42
-    sourcerpm: perl-5.40.2-517.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-FileHandle-2.05-517.fc42.noarch.rpm
+    evr: 1.14-518.fc42
+    sourcerpm: perl-5.40.2-518.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-FileHandle-2.05-518.fc42.noarch.rpm
     repoid: updates
-    size: 16107
-    checksum: sha256:3990e33d7817dee5cf750399db22e976dd2b39c385a4c603c2b5c15e2b7c0988
+    size: 15961
+    checksum: sha256:c877586e90af5943247d470976293b66021ece8caea78efb09e863d13a35d4ea
     name: perl-FileHandle
-    evr: 2.05-517.fc42
-    sourcerpm: perl-5.40.2-517.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-Getopt-Std-1.14-517.fc42.noarch.rpm
+    evr: 2.05-518.fc42
+    sourcerpm: perl-5.40.2-518.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-Getopt-Std-1.14-518.fc42.noarch.rpm
     repoid: updates
-    size: 16303
-    checksum: sha256:70b639ef67f2c0509b3ea4d090b7d9f8763336892abd1f8b440a4cba61318a1b
+    size: 16154
+    checksum: sha256:d29807c76169ba2cf1df8eec695e1b4c854863890108978390b6ef044ea6d37e
     name: perl-Getopt-Std
-    evr: 1.14-517.fc42
-    sourcerpm: perl-5.40.2-517.fc42.src.rpm
+    evr: 1.14-518.fc42
+    sourcerpm: perl-5.40.2-518.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-Git-2.50.1-1.fc42.noarch.rpm
     repoid: updates
     size: 38555
@@ -5646,41 +5639,41 @@ arches:
     name: perl-Git
     evr: 2.50.1-1.fc42
     sourcerpm: git-2.50.1-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-I18N-Langinfo-0.24-517.fc42.x86_64.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-I18N-Langinfo-0.24-518.fc42.x86_64.rpm
     repoid: updates
-    size: 26492
-    checksum: sha256:611ef70215de366c1bd351f27cf5de32012206a07cc09e0808a7b4c5658e8db2
+    size: 26328
+    checksum: sha256:629019eefa63a6120e6d6b770edfee110695fe223543b5336e115ca8f39af460
     name: perl-I18N-Langinfo
-    evr: 0.24-517.fc42
-    sourcerpm: perl-5.40.2-517.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-IO-1.55-517.fc42.x86_64.rpm
+    evr: 0.24-518.fc42
+    sourcerpm: perl-5.40.2-518.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-IO-1.55-518.fc42.x86_64.rpm
     repoid: updates
-    size: 84026
-    checksum: sha256:5a718727da146fbf3d4c52038ee3b9f9030c04bfabd69e8eac4fb48ac9e48405
+    size: 83860
+    checksum: sha256:afc3ca559820cd9b41f3bd0102e7bcc5cd39055eccd323f945f981692963f3af
     name: perl-IO
-    evr: 1.55-517.fc42
-    sourcerpm: perl-5.40.2-517.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-IPC-Open3-1.22-517.fc42.noarch.rpm
+    evr: 1.55-518.fc42
+    sourcerpm: perl-5.40.2-518.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-IPC-Open3-1.22-518.fc42.noarch.rpm
     repoid: updates
-    size: 22618
-    checksum: sha256:8c77d394e3b29e0e93e8e2e7c852d607f1dd287248bde42bebd10e6f8a3384d4
+    size: 22463
+    checksum: sha256:0dd71089c5f15ef16baf9be487f65f2eaa28d6df5332c058453b8b9e16b08986
     name: perl-IPC-Open3
-    evr: 1.22-517.fc42
-    sourcerpm: perl-5.40.2-517.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-NDBM_File-1.17-517.fc42.x86_64.rpm
+    evr: 1.22-518.fc42
+    sourcerpm: perl-5.40.2-518.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-NDBM_File-1.17-518.fc42.x86_64.rpm
     repoid: updates
-    size: 23407
-    checksum: sha256:a06d0cc20d66ffca6511ba66c64d95bb0eac2b62126daa8cf303ec7d24818e6e
+    size: 23242
+    checksum: sha256:d5c12de32b0eb8330dfc0b43bd53f9462ce18d00222fd4e9bd06f4d51f7cd6e2
     name: perl-NDBM_File
-    evr: 1.17-517.fc42
-    sourcerpm: perl-5.40.2-517.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-POSIX-2.20-517.fc42.x86_64.rpm
+    evr: 1.17-518.fc42
+    sourcerpm: perl-5.40.2-518.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-POSIX-2.20-518.fc42.x86_64.rpm
     repoid: updates
-    size: 100253
-    checksum: sha256:ad3472ac9c302067e983102b6c55f2c8adbcf9441df7dfd6538fa330ba44b816
+    size: 100040
+    checksum: sha256:0438f5da5464a1d7b83f22f800f526b23f159a334d7b8fb1a91d9ca78f25c840
     name: perl-POSIX
-    evr: 2.20-517.fc42
-    sourcerpm: perl-5.40.2-517.fc42.src.rpm
+    evr: 2.20-518.fc42
+    sourcerpm: perl-5.40.2-518.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-Scalar-List-Utils-1.69-1.fc42.x86_64.rpm
     repoid: updates
     size: 76605
@@ -5688,20 +5681,20 @@ arches:
     name: perl-Scalar-List-Utils
     evr: 5:1.69-1.fc42
     sourcerpm: perl-Scalar-List-Utils-1.69-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-SelectSaver-1.02-517.fc42.noarch.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-SelectSaver-1.02-518.fc42.noarch.rpm
     repoid: updates
-    size: 12247
-    checksum: sha256:e3288e30b5e575ed7037bc17e42f9baf5895cad19426a229e6378623c1ba8cb2
+    size: 12095
+    checksum: sha256:9e7a7c03a8ccb94eb7dc59eaf96f9abd7177ee467e0fc9cbf32c399ec07683ac
     name: perl-SelectSaver
-    evr: 1.02-517.fc42
-    sourcerpm: perl-5.40.2-517.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-Symbol-1.09-517.fc42.noarch.rpm
+    evr: 1.02-518.fc42
+    sourcerpm: perl-5.40.2-518.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-Symbol-1.09-518.fc42.noarch.rpm
     repoid: updates
-    size: 14786
-    checksum: sha256:555e7643eee520698083d78721387c9c5fabd2fdbd3e02e7c8ae7ed546d2506d
+    size: 14636
+    checksum: sha256:ae085ab03360a8eff0d685ef2ae81738a660b489bd3667a2882934d7e917b582
     name: perl-Symbol
-    evr: 1.09-517.fc42
-    sourcerpm: perl-5.40.2-517.fc42.src.rpm
+    evr: 1.09-518.fc42
+    sourcerpm: perl-5.40.2-518.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-Sys-Guestfs-1.56.1-1.fc42.x86_64.rpm
     repoid: updates
     size: 291800
@@ -5709,76 +5702,76 @@ arches:
     name: perl-Sys-Guestfs
     evr: 1:1.56.1-1.fc42
     sourcerpm: libguestfs-1.56.1-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-base-2.27-517.fc42.noarch.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-base-2.27-518.fc42.noarch.rpm
     repoid: updates
-    size: 16842
-    checksum: sha256:d6f0661df87e5505fe6ae857b3b49c1d573ac72e906a30abe1c0a950906212d6
+    size: 16691
+    checksum: sha256:c57ee784fc5bc5c1f7afff7669e76f05255d853aea5a407ccbff3e26fdae3993
     name: perl-base
-    evr: 2.27-517.fc42
-    sourcerpm: perl-5.40.2-517.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-if-0.61.000-517.fc42.noarch.rpm
+    evr: 2.27-518.fc42
+    sourcerpm: perl-5.40.2-518.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-if-0.61.000-518.fc42.noarch.rpm
     repoid: updates
-    size: 14575
-    checksum: sha256:0fd14363166c2935666b5e7c3ec5da946ff156d4337df7d8407fe9dc055ba8f3
+    size: 14427
+    checksum: sha256:0ac38c97037e183b99b71c4cb5b04de1403b5696b355ae1f23764892921d03ca
     name: perl-if
-    evr: 0.61.000-517.fc42
-    sourcerpm: perl-5.40.2-517.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-interpreter-5.40.2-517.fc42.x86_64.rpm
+    evr: 0.61.000-518.fc42
+    sourcerpm: perl-5.40.2-518.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-interpreter-5.40.2-518.fc42.x86_64.rpm
     repoid: updates
-    size: 74139
-    checksum: sha256:390b2bb97f90cd17013f21220f5ff9ff4cd2c51f11b098ad0c1b6cf0439f09ee
+    size: 73998
+    checksum: sha256:682c6cc31e78ef5572ffc5899ab78e7a3250a2c778ce6042db5fe9dc34163ef0
     name: perl-interpreter
-    evr: 4:5.40.2-517.fc42
-    sourcerpm: perl-5.40.2-517.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-lib-0.65-517.fc42.x86_64.rpm
+    evr: 4:5.40.2-518.fc42
+    sourcerpm: perl-5.40.2-518.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-lib-0.65-518.fc42.x86_64.rpm
     repoid: updates
-    size: 15549
-    checksum: sha256:79703c355beb9e8a21eb66d7709f39b6f77d51542dd377b6ce4777a5d713f4cb
+    size: 15396
+    checksum: sha256:43fd34ac3d2ce43c79f8bf2be16adcbe5a45b50a6ad8b3c15e9631c226ef7ae9
     name: perl-lib
-    evr: 0.65-517.fc42
-    sourcerpm: perl-5.40.2-517.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-libs-5.40.2-517.fc42.x86_64.rpm
+    evr: 0.65-518.fc42
+    sourcerpm: perl-5.40.2-518.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-libs-5.40.2-518.fc42.x86_64.rpm
     repoid: updates
-    size: 2443419
-    checksum: sha256:60538af626036997c1b06f5806e70009fb868b28c0d7373f11e14eff1eb74cd6
+    size: 2444303
+    checksum: sha256:5794b9b2aa57176c1746015345dd161725bfae8ac254b392494c5097c12b4b7b
     name: perl-libs
-    evr: 4:5.40.2-517.fc42
-    sourcerpm: perl-5.40.2-517.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-locale-1.12-517.fc42.noarch.rpm
+    evr: 4:5.40.2-518.fc42
+    sourcerpm: perl-5.40.2-518.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-locale-1.12-518.fc42.noarch.rpm
     repoid: updates
-    size: 14186
-    checksum: sha256:06ae806acc73b97fb80d90cddd07684139119bce9fe41e322d8a8f84c8636325
+    size: 14043
+    checksum: sha256:ffe14400045cd11430567e725a4f5eeb062cdfbf80d51ae295ce59c50eae4662
     name: perl-locale
-    evr: 1.12-517.fc42
-    sourcerpm: perl-5.40.2-517.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-mro-1.29-517.fc42.x86_64.rpm
+    evr: 1.12-518.fc42
+    sourcerpm: perl-5.40.2-518.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-mro-1.29-518.fc42.x86_64.rpm
     repoid: updates
-    size: 30851
-    checksum: sha256:2736fabd4987e71c7c6f455c5c25b2af6fc3e618909f2f02d6b2e9db5d3805ec
+    size: 30696
+    checksum: sha256:32fb3848be7f11f90a9e969edbc9b31287117a48076af43fd0481d304988e6fa
     name: perl-mro
-    evr: 1.29-517.fc42
-    sourcerpm: perl-5.40.2-517.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-overload-1.37-517.fc42.noarch.rpm
+    evr: 1.29-518.fc42
+    sourcerpm: perl-5.40.2-518.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-overload-1.37-518.fc42.noarch.rpm
     repoid: updates
-    size: 46881
-    checksum: sha256:a3eb0fea1b2b1110d1d487ba0a4e4843a221753c46205e2f4a335926bf8d7e18
+    size: 46726
+    checksum: sha256:88fc3781ac8c2bbc461bfff480705175da123a32a4f104e03e18b7262d23fcf2
     name: perl-overload
-    evr: 1.37-517.fc42
-    sourcerpm: perl-5.40.2-517.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-overloading-0.02-517.fc42.noarch.rpm
+    evr: 1.37-518.fc42
+    sourcerpm: perl-5.40.2-518.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-overloading-0.02-518.fc42.noarch.rpm
     repoid: updates
-    size: 13451
-    checksum: sha256:ba6ab4fdfa4252e28609719f577c904b3a3bef63165fca659536281986be7f47
+    size: 13307
+    checksum: sha256:1ce176abe0ab244622ed022d5d906c8388cd4568412e0ba21b2a93cd883777e9
     name: perl-overloading
-    evr: 0.02-517.fc42
-    sourcerpm: perl-5.40.2-517.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-vars-1.05-517.fc42.noarch.rpm
+    evr: 0.02-518.fc42
+    sourcerpm: perl-5.40.2-518.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/perl-vars-1.05-518.fc42.noarch.rpm
     repoid: updates
-    size: 13558
-    checksum: sha256:3467451fc37e08b120c1b19fc2b3658d1753809aa55534c92337ebeac24b8638
+    size: 13393
+    checksum: sha256:26930047ece86315deef0c7a1ec3b7f2a2db7a28bc9c65d96524d99710cb49f5
     name: perl-vars
-    evr: 1.05-517.fc42
-    sourcerpm: perl-5.40.2-517.fc42.src.rpm
+    evr: 1.05-518.fc42
+    sourcerpm: perl-5.40.2-518.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/pipewire-1.4.6-1.fc42.x86_64.rpm
     repoid: updates
     size: 138371
@@ -5989,6 +5982,13 @@ arches:
     name: python3-pylint
     evr: 3.3.7-1.fc42
     sourcerpm: pylint-3.3.7-1.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/python3-requests-2.32.4-1.fc42.noarch.rpm
+    repoid: updates
+    size: 162691
+    checksum: sha256:f6924352621c7dc16a6b3c24675b326de94b434fe6576b46d658d6b81aae30e9
+    name: python3-requests
+    evr: 2.32.4-1.fc42
+    sourcerpm: python-requests-2.32.4-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/python3-rpds-py-0.25.0-1.fc42.x86_64.rpm
     repoid: updates
     size: 318498
@@ -6563,13 +6563,13 @@ arches:
     name: qt6-srpm-macros
     evr: 6.9.1-1.fc42
     sourcerpm: qt6-6.9.1-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/r/realtek-firmware-20250627-1.fc42.noarch.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/r/realtek-firmware-20250708-1.fc42.noarch.rpm
     repoid: updates
-    size: 5158283
-    checksum: sha256:f5c06515a7527a795cab667384a3b2f8f9d881ebfb0ee8c58b831315acc52927
+    size: 5515788
+    checksum: sha256:887248cdef01bf9da264ae75350de4c0fa7355cc682f4bd4cdfe88fec7ade140
     name: realtek-firmware
-    evr: 20250627-1.fc42
-    sourcerpm: linux-firmware-20250627-1.fc42.src.rpm
+    evr: 20250708-1.fc42
+    sourcerpm: linux-firmware-20250708-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/r/redhat-rpm-config-342-4.fc42.noarch.rpm
     repoid: updates
     size: 83033
@@ -6605,27 +6605,27 @@ arches:
     name: SDL3
     evr: 3.2.16-1.fc42
     sourcerpm: SDL3-3.2.16-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/s/samba-client-libs-4.22.2-1.fc42.x86_64.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/s/samba-client-libs-4.22.3-2.fc42.x86_64.rpm
     repoid: updates
-    size: 5848572
-    checksum: sha256:58a998fb67aa6932dc307ce61b8243df44dad85b9f51ff59347a482c537f5502
+    size: 5848665
+    checksum: sha256:fdd29ae6c8231ca508558b9893b19ec7aef3289744d42cf538f4b6afc6420860
     name: samba-client-libs
-    evr: 2:4.22.2-1.fc42
-    sourcerpm: samba-4.22.2-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/s/samba-common-4.22.2-1.fc42.noarch.rpm
+    evr: 2:4.22.3-2.fc42
+    sourcerpm: samba-4.22.3-2.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/s/samba-common-4.22.3-2.fc42.noarch.rpm
     repoid: updates
-    size: 181744
-    checksum: sha256:0325ac42767702e4540a045c122e58bb4b0d26705f26994e26376bade2ec1f78
+    size: 181861
+    checksum: sha256:531fd3339a8bd9a734a312834c0a8f3ea759a26b75d95cefca2df0977716c3bd
     name: samba-common
-    evr: 2:4.22.2-1.fc42
-    sourcerpm: samba-4.22.2-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/s/samba-common-libs-4.22.2-1.fc42.x86_64.rpm
+    evr: 2:4.22.3-2.fc42
+    sourcerpm: samba-4.22.3-2.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/s/samba-common-libs-4.22.3-2.fc42.x86_64.rpm
     repoid: updates
-    size: 111142
-    checksum: sha256:9e16cfc9625e7ede9a7447a9573884d67fefe268d313f4717d910a88c579e360
+    size: 110527
+    checksum: sha256:7b9aae03ccd08ef6b341145ec5f32585c0eb25ede498c2d3c695dda7a3331c60
     name: samba-common-libs
-    evr: 2:4.22.2-1.fc42
-    sourcerpm: samba-4.22.2-1.fc42.src.rpm
+    evr: 2:4.22.3-2.fc42
+    sourcerpm: samba-4.22.3-2.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/s/sdl2-compat-2.32.56-1.fc42.x86_64.rpm
     repoid: updates
     size: 138188
@@ -6647,20 +6647,20 @@ arches:
     name: seavgabios-bin
     evr: 1.17.0-4.fc42
     sourcerpm: seabios-1.17.0-4.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/s/selinux-policy-41.44-1.fc42.noarch.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/s/selinux-policy-41.45-1.fc42.noarch.rpm
     repoid: updates
-    size: 54493
-    checksum: sha256:133b4628e654bed9b43a533b07c30cf271457b43f2abc6e45d02dd9cde7642b1
+    size: 55602
+    checksum: sha256:91a40d5ddb48c781e8c816a4a7c6c22f1daf317d6f28f5545945a1be2a0166d4
     name: selinux-policy
-    evr: 41.44-1.fc42
-    sourcerpm: selinux-policy-41.44-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/s/selinux-policy-targeted-41.44-1.fc42.noarch.rpm
+    evr: 41.45-1.fc42
+    sourcerpm: selinux-policy-41.45-1.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/s/selinux-policy-targeted-41.45-1.fc42.noarch.rpm
     repoid: updates
-    size: 7113819
-    checksum: sha256:18bab6cf0d8ef4f4979c377f6dfc3f80352ed18febc60e5067fa59f35c2902ce
+    size: 7113210
+    checksum: sha256:90a81e1e22fcdc91686fbf74c9f1ffaf88806706327293365a5d08040a21c8a2
     name: selinux-policy-targeted
-    evr: 41.44-1.fc42
-    sourcerpm: selinux-policy-41.44-1.fc42.src.rpm
+    evr: 41.45-1.fc42
+    sourcerpm: selinux-policy-41.45-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/s/skopeo-1.19.0-2.fc42.x86_64.rpm
     repoid: updates
     size: 9342698
@@ -6794,13 +6794,13 @@ arches:
     name: tinysparql
     evr: 3.9.2-1.fc42
     sourcerpm: tinysparql-3.9.2-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/t/tiwilink-firmware-20250627-1.fc42.noarch.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/t/tiwilink-firmware-20250708-1.fc42.noarch.rpm
     repoid: updates
-    size: 4844909
-    checksum: sha256:875a4198b36f214a00b889c2f0c37d479e1360f1e3b4fbd7b35ac4c2c05a5877
+    size: 4845546
+    checksum: sha256:bc8e80093586f1dd77ab81d75c3808129cc8cf33fd06e8aa561ea153576c06c5
     name: tiwilink-firmware
-    evr: 20250627-1.fc42
-    sourcerpm: linux-firmware-20250627-1.fc42.src.rpm
+    evr: 20250708-1.fc42
+    sourcerpm: linux-firmware-20250708-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/u/unbound-anchor-1.23.0-3.fc42.x86_64.rpm
     repoid: updates
     size: 38489
@@ -6843,20 +6843,20 @@ arches:
     name: virtiofsd
     evr: 1.13.2-1.fc42
     sourcerpm: virtiofsd-1.13.2-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/v/vte-profile-0.80.2-2.fc42.x86_64.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/v/vte-profile-0.80.3-1.fc42.x86_64.rpm
     repoid: updates
-    size: 27824
-    checksum: sha256:77f214e7905631bb1ec12f7eff1e83723bda7d1d39f07aa0929fee15b1e39bde
+    size: 27803
+    checksum: sha256:4c7c9dd7f3241af688feae1d1243c7f37cdfa83b534711c7c336b3e054225b46
     name: vte-profile
-    evr: 0.80.2-2.fc42
-    sourcerpm: vte291-0.80.2-2.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/v/vte291-0.80.2-2.fc42.x86_64.rpm
+    evr: 0.80.3-1.fc42
+    sourcerpm: vte291-0.80.3-1.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/v/vte291-0.80.3-1.fc42.x86_64.rpm
     repoid: updates
-    size: 426811
-    checksum: sha256:ab607cf2ed29f757de3827efebd99d0e037eeccf9f1abab0d27fc1aec95463f0
+    size: 429274
+    checksum: sha256:798dba140d689e801aca0196fdb84d311268eccb9fff7b9d15035a70485402c7
     name: vte291
-    evr: 0.80.2-2.fc42
-    sourcerpm: vte291-0.80.2-2.fc42.src.rpm
+    evr: 0.80.3-1.fc42
+    sourcerpm: vte291-0.80.3-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/v/vulkan-loader-1.4.313.0-1.fc42.x86_64.rpm
     repoid: updates
     size: 155132
