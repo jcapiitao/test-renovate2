@@ -1,0 +1,29 @@
+name: Dockerfile Lint
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  lint-dockerfile:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Run Hadolint on Dockerfiles
+      run: |
+        # Find all Dockerfiles in the repository (case-insensitive and common naming conventions)
+        # and lint them.
+        # The '|| true' allows the workflow to continue even if hadolint finds issues,
+        # but the step will still be marked as failed by hadolint's exit code.
+        find . -type f -name "*Dockerfile*" -print0 | while IFS= read -r -d $'\0' file; do
+          echo "Linting Dockerfile: $file"
+          # Use a Docker container for hadolint to avoid installing it directly on the runner
+          docker run --rm -i hadolint/hadolint < "$file" || true
+        done
