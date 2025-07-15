@@ -20,8 +20,7 @@
       "branchPrefix": "renovate/rpm/",
       "semanticCommits": "enabled",
       "automerge": true,
-      "automergeType": "branch",
-      "ignoreTests": true
+      "automergeType": "branch"
     }
   ],
   "rpm": {
