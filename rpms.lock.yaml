@@ -5891,20 +5891,20 @@ arches:
     name: python3-awscrt
     evr: 0.27.2-1.fc42
     sourcerpm: python-awscrt-0.27.2-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/python3-boto3-1.39.4-1.fc42.noarch.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/python3-boto3-1.39.6-1.fc42.noarch.rpm
     repoid: updates
-    size: 446392
-    checksum: sha256:fb19605806bdcf6a6cd0a5b08f0769c1afa5c5fdce01918640dfdd1b996e0622
+    size: 446789
+    checksum: sha256:ea01c680388979a59cc43fd58bc4a11ff4200945569fef2d1f95cece3b587873
     name: python3-boto3
-    evr: 1.39.4-1.fc42
-    sourcerpm: python-boto3-1.39.4-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/python3-botocore-1.39.4-1.fc42.noarch.rpm
+    evr: 1.39.6-1.fc42
+    sourcerpm: python-boto3-1.39.6-1.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/python3-botocore-1.39.6-1.fc42.noarch.rpm
     repoid: updates
-    size: 8374568
-    checksum: sha256:f181effa7155eb6574999da92051dc368dc73298ccddb3a6869d7083b3c698dd
+    size: 8388824
+    checksum: sha256:1c73a485ee85e02f0685e08597fcee509376e0e6e22b7de8528951f738197d07
     name: python3-botocore
-    evr: 1.39.4-1.fc42
-    sourcerpm: python-botocore-1.39.4-1.fc42.src.rpm
+    evr: 1.39.6-1.fc42
+    sourcerpm: python-botocore-1.39.6-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/python3-dill-0.4.0-1.fc42.noarch.rpm
     repoid: updates
     size: 281781
