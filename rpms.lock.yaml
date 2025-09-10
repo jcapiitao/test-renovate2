@@ -25,20 +25,6 @@ arches:
     name: add-determinism
     evr: 0.6.0-1.fc42
     sourcerpm: rust-add-determinism-0.6.0-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/releases/42/Everything/x86_64/os/Packages/a/adwaita-cursor-theme-48.0-1.fc42.noarch.rpm
-    repoid: fedora
-    size: 388743
-    checksum: sha256:b33885d015fc293c6feb17ac0ecab6d1c931f6f04b955517192ae1a63354cb46
-    name: adwaita-cursor-theme
-    evr: 48.0-1.fc42
-    sourcerpm: adwaita-icon-theme-48.0-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/releases/42/Everything/x86_64/os/Packages/a/adwaita-icon-theme-48.0-1.fc42.noarch.rpm
-    repoid: fedora
-    size: 408741
-    checksum: sha256:6eec44a83c8b913efbe8d86f1f6c9ef3428411caf6082e660434619d113de000
-    name: adwaita-icon-theme
-    evr: 48.0-1.fc42
-    sourcerpm: adwaita-icon-theme-48.0-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/releases/42/Everything/x86_64/os/Packages/a/adwaita-icon-theme-legacy-46.2-3.fc42.noarch.rpm
     repoid: fedora
     size: 2598274
@@ -3917,6 +3903,20 @@ arches:
     name: aardvark-dns
     evr: 2:1.16.0-1.fc42
     sourcerpm: aardvark-dns-1.16.0-1.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/a/adwaita-cursor-theme-48.1-1.fc42.noarch.rpm
+    repoid: updates
+    size: 388658
+    checksum: sha256:cf62f1d46bc9368d3cb57252915a9a28810644c1209b9e24dabece1515c02214
+    name: adwaita-cursor-theme
+    evr: 48.1-1.fc42
+    sourcerpm: adwaita-icon-theme-48.1-1.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/a/adwaita-icon-theme-48.1-1.fc42.noarch.rpm
+    repoid: updates
+    size: 408367
+    checksum: sha256:ae813ba549308bcddf206444402de2382317fe8919a78e67726844c369407fdc
+    name: adwaita-icon-theme
+    evr: 48.1-1.fc42
+    sourcerpm: adwaita-icon-theme-48.1-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/a/alsa-lib-1.2.14-3.fc42.x86_64.rpm
     repoid: updates
     size: 544003
@@ -3959,20 +3959,20 @@ arches:
     name: apr
     evr: 1.7.6-3.fc42
     sourcerpm: apr-1.7.6-3.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/a/at-spi2-atk-2.56.3-1.fc42.x86_64.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/a/at-spi2-atk-2.56.4-1.fc42.x86_64.rpm
     repoid: updates
-    size: 88516
-    checksum: sha256:3c22cf4742cd35027f665059631e9a0180c5653d36df773368751e87903d26ce
+    size: 88323
+    checksum: sha256:667e46b2f4b130a00e44c96f33b8c50c2c3e139c4b52555ff8edccc82f5089ef
     name: at-spi2-atk
-    evr: 2.56.3-1.fc42
-    sourcerpm: at-spi2-core-2.56.3-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/a/at-spi2-core-2.56.3-1.fc42.x86_64.rpm
+    evr: 2.56.4-1.fc42
+    sourcerpm: at-spi2-core-2.56.4-1.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/a/at-spi2-core-2.56.4-1.fc42.x86_64.rpm
     repoid: updates
-    size: 391490
-    checksum: sha256:f8a70616609cafbf50a8e8b7e9ed70cb3706649ca3800225ea995a1d47171efb
+    size: 391509
+    checksum: sha256:b2942b44f83fbce46c1a3cc115f878e8e13e155c43c5d267c54332aac2171bb1
     name: at-spi2-core
-    evr: 2.56.3-1.fc42
-    sourcerpm: at-spi2-core-2.56.3-1.fc42.src.rpm
+    evr: 2.56.4-1.fc42
+    sourcerpm: at-spi2-core-2.56.4-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/a/atheros-firmware-20250808-1.fc42.noarch.rpm
     repoid: updates
     size: 38393962
@@ -3980,13 +3980,13 @@ arches:
     name: atheros-firmware
     evr: 20250808-1.fc42
     sourcerpm: linux-firmware-20250808-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/a/atk-2.56.3-1.fc42.x86_64.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/a/atk-2.56.4-1.fc42.x86_64.rpm
     repoid: updates
-    size: 82049
-    checksum: sha256:3e3cbfa4a1d92b681fcaf0c25f36ad0e874cd148b5f6b1b0c3c34726f4575d95
+    size: 81846
+    checksum: sha256:a4dbf31567541c8b64a11d83edc19b55e6053cc82a4bec782cc62ff8b0df46cf
     name: atk
-    evr: 2.56.3-1.fc42
-    sourcerpm: at-spi2-core-2.56.3-1.fc42.src.rpm
+    evr: 2.56.4-1.fc42
+    sourcerpm: at-spi2-core-2.56.4-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/a/awscli2-2.27.0-2.fc42.noarch.rpm
     repoid: updates
     size: 14433060
@@ -4043,13 +4043,13 @@ arches:
     name: btrfs-progs
     evr: 6.16-1.fc42
     sourcerpm: btrfs-progs-6.16-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/b/buildah-1.41.3-1.fc42.x86_64.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/b/buildah-1.41.4-1.fc42.x86_64.rpm
     repoid: updates
-    size: 10146135
-    checksum: sha256:3afa4ee3d67c3b2b9cab555fcf37e702b220b950f407717b380cac49e2949276
+    size: 10145906
+    checksum: sha256:9079178c83dda438e32d1a9ee18f80dc58d3b145a6ef81e27efe4cb4a7e8f9d1
     name: buildah
-    evr: 2:1.41.3-1.fc42
-    sourcerpm: buildah-1.41.3-1.fc42.src.rpm
+    evr: 2:1.41.4-1.fc42
+    sourcerpm: buildah-1.41.4-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/b/butane-0.24.0-1.fc42.x86_64.rpm
     repoid: updates
     size: 2763088
@@ -4071,20 +4071,20 @@ arches:
     name: container-selinux
     evr: 4:2.242.0-1.fc42
     sourcerpm: container-selinux-2.242.0-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/c/containers-common-0.64.1-2.fc42.noarch.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/c/containers-common-0.64.2-1.fc42.noarch.rpm
     repoid: updates
-    size: 100562
-    checksum: sha256:cff1ae6f68deeb44289cab72c1902b64823aa99135f815823b50c5d628cdd0bd
+    size: 100645
+    checksum: sha256:c21986df6f2372e76dc1d637d8a924bc13c2f18846dc20ff8a3af7faae82b891
     name: containers-common
-    evr: 5:0.64.1-2.fc42
-    sourcerpm: containers-common-0.64.1-2.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/c/containers-common-extra-0.64.1-2.fc42.noarch.rpm
+    evr: 5:0.64.2-1.fc42
+    sourcerpm: containers-common-0.64.2-1.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/c/containers-common-extra-0.64.2-1.fc42.noarch.rpm
     repoid: updates
-    size: 10205
-    checksum: sha256:07575aafce96b75610ab59eae58e97b36c29f55df163a218ed6de11deb11bc30
+    size: 10281
+    checksum: sha256:5b5522dcc46aed825a0eed2d57e69c4a597278cab560f867829511719cdd157f
     name: containers-common-extra
-    evr: 5:0.64.1-2.fc42
-    sourcerpm: containers-common-0.64.1-2.fc42.src.rpm
+    evr: 5:0.64.2-1.fc42
+    sourcerpm: containers-common-0.64.2-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/c/copr-cli-2.2-1.fc42.noarch.rpm
     repoid: updates
     size: 93519
@@ -4442,27 +4442,27 @@ arches:
     name: go-srpm-macros
     evr: 3.8.0-1.fc42
     sourcerpm: go-rpm-macros-3.8.0-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/g/golang-1.24.6-1.fc42.x86_64.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/g/golang-1.24.7-1.fc42.x86_64.rpm
     repoid: updates
-    size: 687113
-    checksum: sha256:746bf1d49af870fadd525ba5590f833e6f0530c96793356d1e8877cd46a6af36
+    size: 687048
+    checksum: sha256:474db9393a0931e5c67d8ac5ed83968acfdf4a97289e2611d428958bf18b746a
     name: golang
-    evr: 1.24.6-1.fc42
-    sourcerpm: golang-1.24.6-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/g/golang-bin-1.24.6-1.fc42.x86_64.rpm
+    evr: 1.24.7-1.fc42
+    sourcerpm: golang-1.24.7-1.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/g/golang-bin-1.24.7-1.fc42.x86_64.rpm
     repoid: updates
-    size: 30725547
-    checksum: sha256:5f3cda65c3e554d180a204b07c8b8f0564b9124b0da706ea489273378f15e691
+    size: 30724379
+    checksum: sha256:727d44eaf2394551bb74695f6443d03d9220990c770abafa53b5a6d75da67a9c
     name: golang-bin
-    evr: 1.24.6-1.fc42
-    sourcerpm: golang-1.24.6-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/g/golang-src-1.24.6-1.fc42.noarch.rpm
+    evr: 1.24.7-1.fc42
+    sourcerpm: golang-1.24.7-1.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/g/golang-src-1.24.7-1.fc42.noarch.rpm
     repoid: updates
-    size: 13759884
-    checksum: sha256:406153747190f1d93486001519c2ce9718ec95b397ae53133ca01e4bb5b8937a
+    size: 13759025
+    checksum: sha256:2bd33e5aab2d7e8ef5aae6aec5ad4dffd1c36a4841dd3cce2584141fb5e52444
     name: golang-src
-    evr: 1.24.6-1.fc42
-    sourcerpm: golang-1.24.6-1.fc42.src.rpm
+    evr: 1.24.7-1.fc42
+    sourcerpm: golang-1.24.7-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/g/gpgme-1.24.3-1.fc42.x86_64.rpm
     repoid: updates
     size: 224312
@@ -4750,13 +4750,13 @@ arches:
     name: libdrm
     evr: 2.4.125-1.fc42
     sourcerpm: libdrm-2.4.125-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/l/libgexiv2-0.14.5-1.fc42.x86_64.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/l/libgexiv2-0.14.6-1.fc42.x86_64.rpm
     repoid: updates
-    size: 103290
-    checksum: sha256:89945157c497e18b9ff13a616dc1b76f3c5e54fb6883e717a03f791006377b98
+    size: 103334
+    checksum: sha256:18fa57cf0155d131b42ba89cc49f96d8da652eea482c9be745515321927522f3
     name: libgexiv2
-    evr: 0.14.5-1.fc42
-    sourcerpm: libgexiv2-0.14.5-1.fc42.src.rpm
+    evr: 0.14.6-1.fc42
+    sourcerpm: libgexiv2-0.14.6-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/l/libgfapi0-11.2-1.fc42.x86_64.rpm
     repoid: updates
     size: 97228
@@ -5737,13 +5737,13 @@ arches:
     name: pixman
     evr: 0.46.2-1.fc42
     sourcerpm: pixman-0.46.2-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/podman-5.6.0-1.fc42.x86_64.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/podman-5.6.1-1.fc42.x86_64.rpm
     repoid: updates
-    size: 15417780
-    checksum: sha256:7fb15ab91d2286b7eaf87331f42cf9d616c8fbde23bc1eb6d918de84e954a780
+    size: 15417484
+    checksum: sha256:0dc464807c41589e24f8c5bcf33263e6140fd63d5dada61f5f5664b558aa4ae0
     name: podman
-    evr: 5:5.6.0-1.fc42
-    sourcerpm: podman-5.6.0-1.fc42.src.rpm
+    evr: 5:5.6.1-1.fc42
+    sourcerpm: podman-5.6.1-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/polkit-126-3.fc42.1.x86_64.rpm
     repoid: updates
     size: 164541
