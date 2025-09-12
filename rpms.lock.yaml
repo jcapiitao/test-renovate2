@@ -1635,13 +1635,6 @@ arches:
     name: libogg
     evr: 2:1.3.5-11.fc42
     sourcerpm: libogg-1.3.5-11.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/releases/42/Everything/x86_64/os/Packages/l/libopenmpt-0.7.13-3.fc42.x86_64.rpm
-    repoid: fedora
-    size: 735656
-    checksum: sha256:1d65b1a378cf8f7b80ad370ddf4f91e61f7b6d806eaef77e1864ab33304ebcd0
-    name: libopenmpt
-    evr: 0.7.13-3.fc42
-    sourcerpm: libopenmpt-0.7.13-3.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/releases/42/Everything/x86_64/os/Packages/l/libosinfo-1.12.0-2.fc42.x86_64.rpm
     repoid: fedora
     size: 324765
@@ -4127,13 +4120,13 @@ arches:
     name: criu-libs
     evr: 4.1.1-1.fc42
     sourcerpm: criu-4.1.1-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/c/crun-1.23.1-1.fc42.x86_64.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/c/crun-1.24-1.fc42.x86_64.rpm
     repoid: updates
-    size: 260827
-    checksum: sha256:506938c0ef7183ca4597768d31f9168c7a478779ad50e941e13967dc3aae5759
+    size: 264609
+    checksum: sha256:4d70cee894f60c96c922236edaec26f9ac9a149f56d65eab3870fbc02646d95d
     name: crun
-    evr: 1.23.1-1.fc42
-    sourcerpm: crun-1.23.1-1.fc42.src.rpm
+    evr: 1.24-1.fc42
+    sourcerpm: crun-1.24-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/c/cryptsetup-2.8.1-1.fc42.x86_64.rpm
     repoid: updates
     size: 355433
@@ -4617,13 +4610,13 @@ arches:
     name: jxl-pixbuf-loader
     evr: 1:0.11.1-4.fc42
     sourcerpm: jpegxl-0.11.1-4.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/k/kernel-core-6.16.5-200.fc42.x86_64.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/k/kernel-core-6.16.7-200.fc42.x86_64.rpm
     repoid: updates
-    size: 20493117
-    checksum: sha256:f77be8e2ac160d05a190d0801cdc96fe70762b4e34db641003419f5ddd3bbe0c
+    size: 20492881
+    checksum: sha256:fcfbc10215b1eccf509f84d2ae9d3a9de5514690636d8d49637cfa1681e7c932
     name: kernel-core
-    evr: 6.16.5-200.fc42
-    sourcerpm: kernel-6.16.5-200.fc42.src.rpm
+    evr: 6.16.7-200.fc42
+    sourcerpm: kernel-6.16.7-200.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/k/kernel-headers-6.16.2-200.fc42.x86_64.rpm
     repoid: updates
     size: 1766768
@@ -4631,20 +4624,20 @@ arches:
     name: kernel-headers
     evr: 6.16.2-200.fc42
     sourcerpm: kernel-headers-6.16.2-200.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/k/kernel-modules-6.16.5-200.fc42.x86_64.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/k/kernel-modules-6.16.7-200.fc42.x86_64.rpm
     repoid: updates
-    size: 101178929
-    checksum: sha256:fb7d7ea87fec2d22447d42e803f1e7a1c58ed0f1e0ed6e53fac83d5ee99d7491
+    size: 101198829
+    checksum: sha256:02b8f6cc22aa50fad5dcc5e059ddbedd631818e6ec0b9d01c32729be838fd869
     name: kernel-modules
-    evr: 6.16.5-200.fc42
-    sourcerpm: kernel-6.16.5-200.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/k/kernel-modules-core-6.16.5-200.fc42.x86_64.rpm
+    evr: 6.16.7-200.fc42
+    sourcerpm: kernel-6.16.7-200.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/k/kernel-modules-core-6.16.7-200.fc42.x86_64.rpm
     repoid: updates
-    size: 72764065
-    checksum: sha256:f7abde97fd761fd3ae0514e6a4c0cebd47e5427fb2414d465539bb8f556ffb60
+    size: 72778021
+    checksum: sha256:64cc6e24c2a93e4963450b80cac9afd9f3b242db2d5589ae5b8318ecfed2a762
     name: kernel-modules-core
-    evr: 6.16.5-200.fc42
-    sourcerpm: kernel-6.16.5-200.fc42.src.rpm
+    evr: 6.16.7-200.fc42
+    sourcerpm: kernel-6.16.7-200.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/k/koji-1.35.3-1.fc42.noarch.rpm
     repoid: updates
     size: 272456
@@ -4862,6 +4855,13 @@ arches:
     name: libnotify
     evr: 0.8.6-1.fc42
     sourcerpm: libnotify-0.8.6-1.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/l/libopenmpt-0.8.3-1.fc42.x86_64.rpm
+    repoid: updates
+    size: 804503
+    checksum: sha256:442285d0d7d8bcc78fbf1ba32afa9cb65b3417509fe6e5642cac8a72a250e3a0
+    name: libopenmpt
+    evr: 0.8.3-1.fc42
+    sourcerpm: libopenmpt-0.8.3-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/l/librados2-19.2.3-7.fc42.x86_64.rpm
     repoid: updates
     size: 4477057
@@ -6913,19 +6913,19 @@ arches:
     name: zlib-ng
     evr: 2.2.5-2.fc42
     sourcerpm: zlib-ng-2.2.5-2.fc42.src.rpm
-  - url: https://kojipkgs.fedoraproject.org/repos-dist/f42-coreos-continuous/latest/x86_64/Packages/r/rpm-ostree-2025.10-2.fc42.x86_64.rpm
+  - url: https://kojipkgs.fedoraproject.org/repos-dist/f42-coreos-continuous/latest/x86_64/Packages/r/rpm-ostree-2025.11-1.fc42.x86_64.rpm
     repoid: coreos-continuous
-    size: 4798111
-    checksum: sha256:1096472edd223e788a7c1806167f37557a15cdb802d429d0ce6eee18d12725c2
+    size: 4787509
+    checksum: sha256:324526d5966389b1086881941c8f90943de8339f373be50d48269ae952d192fb
     name: rpm-ostree
-    evr: 2025.10-2.fc42
-    sourcerpm: rpm-ostree-2025.10-2.fc42.src.rpm
-  - url: https://kojipkgs.fedoraproject.org/repos-dist/f42-coreos-continuous/latest/x86_64/Packages/r/rpm-ostree-libs-2025.10-2.fc42.x86_64.rpm
+    evr: 2025.11-1.fc42
+    sourcerpm: rpm-ostree-2025.11-1.fc42.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/repos-dist/f42-coreos-continuous/latest/x86_64/Packages/r/rpm-ostree-libs-2025.11-1.fc42.x86_64.rpm
     repoid: coreos-continuous
-    size: 49670
-    checksum: sha256:ea09f17a16552afe96764bfd4a8507d214ac136d6611556e9c3b3d87f465e082
+    size: 49663
+    checksum: sha256:6e0493a2a27c3b58cb506dd228dc922268ea0959682faa4c5334d6393abf4d93
     name: rpm-ostree-libs
-    evr: 2025.10-2.fc42
-    sourcerpm: rpm-ostree-2025.10-2.fc42.src.rpm
+    evr: 2025.11-1.fc42
+    sourcerpm: rpm-ostree-2025.11-1.fc42.src.rpm
   source: []
   module_metadata: []
