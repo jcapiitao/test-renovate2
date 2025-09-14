@@ -4001,13 +4001,13 @@ arches:
     name: bluez-libs
     evr: 5.83-2.fc42
     sourcerpm: bluez-5.83-2.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/b/bootc-1.6.0-1.fc42.x86_64.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/b/bootc-1.8.0-1.fc42.x86_64.rpm
     repoid: updates
-    size: 3173676
-    checksum: sha256:38a38891a0c8e523a8e2ec28701388c405da1847e3d3bef09a3374d00843a1d3
+    size: 3185702
+    checksum: sha256:e307c34da1e129f3211456a01fe388f20203e3be30c354b2e0f00d66ff557003
     name: bootc
-    evr: 1.6.0-1.fc42
-    sourcerpm: bootc-1.6.0-1.fc42.src.rpm
+    evr: 1.8.0-1.fc42
+    sourcerpm: bootc-1.8.0-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/b/bootupd-0.2.29-1.fc42.x86_64.rpm
     repoid: updates
     size: 1312127
@@ -4841,13 +4841,13 @@ arches:
     name: libnfs
     evr: 6.0.2-6.fc42
     sourcerpm: libnfs-6.0.2-6.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/l/libnfsidmap-2.8.3-2.rc3.fc42.x86_64.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/l/libnfsidmap-2.8.4-0.fc42.x86_64.rpm
     repoid: updates
-    size: 64337
-    checksum: sha256:ec3add2ca07be14f54954d5eaa6061677846b518eb06fdfb5f4ecfef9ce2b203
+    size: 64181
+    checksum: sha256:6d5e0adf68cf4cbb112640ca434217cbb6b4a729d445054702fe04975821944d
     name: libnfsidmap
-    evr: 1:2.8.3-2.rc3.fc42
-    sourcerpm: nfs-utils-2.8.3-2.rc3.fc42.src.rpm
+    evr: 1:2.8.4-0.fc42
+    sourcerpm: nfs-utils-2.8.4-0.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/l/libnotify-0.8.6-1.fc42.x86_64.rpm
     repoid: updates
     size: 53274
@@ -5268,13 +5268,13 @@ arches:
     name: netavark
     evr: 2:1.16.1-1.fc42
     sourcerpm: netavark-1.16.1-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/n/nfs-utils-2.8.3-2.rc3.fc42.x86_64.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/n/nfs-utils-2.8.4-0.fc42.x86_64.rpm
     repoid: updates
-    size: 487670
-    checksum: sha256:297db967f62fe9ae3e3f289823ea33711e498d3257469190ab146d0f05f36e30
+    size: 488024
+    checksum: sha256:4d91728726b9f3a4450704420e8cd9493705254b55abe5b7fab7884cc5f0af12
     name: nfs-utils
-    evr: 1:2.8.3-2.rc3.fc42
-    sourcerpm: nfs-utils-2.8.3-2.rc3.fc42.src.rpm
+    evr: 1:2.8.4-0.fc42
+    sourcerpm: nfs-utils-2.8.4-0.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/n/nspr-4.37.0-2.fc42.x86_64.rpm
     repoid: updates
     size: 141023
