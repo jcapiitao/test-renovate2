@@ -6913,19 +6913,19 @@ arches:
     name: zlib-ng
     evr: 2.2.5-2.fc42
     sourcerpm: zlib-ng-2.2.5-2.fc42.src.rpm
-  - url: https://kojipkgs.fedoraproject.org/repos-dist/f42-coreos-continuous/latest/x86_64/Packages/r/rpm-ostree-2025.11-1.fc42.x86_64.rpm
+  - url: https://kojipkgs.fedoraproject.org/repos-dist/f42-coreos-continuous/latest/x86_64/Packages/r/rpm-ostree-2025.10-2.fc42.x86_64.rpm
     repoid: coreos-continuous
-    size: 4787509
-    checksum: sha256:324526d5966389b1086881941c8f90943de8339f373be50d48269ae952d192fb
+    size: 4798111
+    checksum: sha256:1096472edd223e788a7c1806167f37557a15cdb802d429d0ce6eee18d12725c2
     name: rpm-ostree
-    evr: 2025.11-1.fc42
-    sourcerpm: rpm-ostree-2025.11-1.fc42.src.rpm
-  - url: https://kojipkgs.fedoraproject.org/repos-dist/f42-coreos-continuous/latest/x86_64/Packages/r/rpm-ostree-libs-2025.11-1.fc42.x86_64.rpm
+    evr: 2025.10-2.fc42
+    sourcerpm: rpm-ostree-2025.10-2.fc42.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/repos-dist/f42-coreos-continuous/latest/x86_64/Packages/r/rpm-ostree-libs-2025.10-2.fc42.x86_64.rpm
     repoid: coreos-continuous
-    size: 49663
-    checksum: sha256:6e0493a2a27c3b58cb506dd228dc922268ea0959682faa4c5334d6393abf4d93
+    size: 49670
+    checksum: sha256:ea09f17a16552afe96764bfd4a8507d214ac136d6611556e9c3b3d87f465e082
     name: rpm-ostree-libs
-    evr: 2025.11-1.fc42
-    sourcerpm: rpm-ostree-2025.11-1.fc42.src.rpm
+    evr: 2025.10-2.fc42
+    sourcerpm: rpm-ostree-2025.10-2.fc42.src.rpm
   source: []
   module_metadata: []
