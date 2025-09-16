@@ -6521,13 +6521,13 @@ arches:
     name: qt5-srpm-macros
     evr: 5.15.17-1.fc42
     sourcerpm: qt5-5.15.17-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/q/qt6-srpm-macros-6.9.1-1.fc42.noarch.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/q/qt6-srpm-macros-6.9.2-1.fc42.noarch.rpm
     repoid: updates
     size: 9607
-    checksum: sha256:57000d8fcef8e64f57b547a6ba85215af6a75f3ede73db010ba09b0e69143e0f
+    checksum: sha256:55bdb24eed9fa5c15cb9cd3ded1bfc15503e567831c03d2cbbd55f19fe75447e
     name: qt6-srpm-macros
-    evr: 6.9.1-1.fc42
-    sourcerpm: qt6-6.9.1-1.fc42.src.rpm
+    evr: 6.9.2-1.fc42
+    sourcerpm: qt6-6.9.2-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/r/rav1e-libs-0.7.1-8.fc42.x86_64.rpm
     repoid: updates
     size: 1084890
