@@ -2706,13 +2706,6 @@ arches:
     name: pulseaudio-libs
     evr: 17.0-5.fc42
     sourcerpm: pulseaudio-17.0-5.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/releases/42/Everything/x86_64/os/Packages/p/python-pip-wheel-24.3.1-2.fc42.noarch.rpm
-    repoid: fedora
-    size: 1262714
-    checksum: sha256:6270a48e0b5b0fd8e5d434cba01fad2a454053d2d229b86acbff85a8a4abf093
-    name: python-pip-wheel
-    evr: 24.3.1-2.fc42
-    sourcerpm: python-pip-24.3.1-2.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/releases/42/Everything/x86_64/os/Packages/p/python3-Automat-24.8.1-1.fc42.noarch.rpm
     repoid: fedora
     size: 119096
@@ -4043,13 +4036,13 @@ arches:
     name: buildah
     evr: 2:1.41.4-1.fc42
     sourcerpm: buildah-1.41.4-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/b/butane-0.24.0-1.fc42.x86_64.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/b/butane-0.25.0-1.fc42.x86_64.rpm
     repoid: updates
-    size: 2763088
-    checksum: sha256:e75169c8c9a591457b249fa50ba2a9b0d632899072b5cb4df946d29839ce38c9
+    size: 2767495
+    checksum: sha256:51461ee6757933cc247a9dcc4dd9e12ecc6e329d4cb9ca8d1200f1bc0ae45e77
     name: butane
-    evr: 0.24.0-1.fc42
-    sourcerpm: butane-0.24.0-1.fc42.src.rpm
+    evr: 0.25.0-1.fc42
+    sourcerpm: butane-0.25.0-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/c/cirrus-audio-firmware-20250808-1.fc42.noarch.rpm
     repoid: updates
     size: 2135428
@@ -4897,13 +4890,13 @@ arches:
     name: libsmbclient
     evr: 2:4.22.4-1.fc42
     sourcerpm: samba-4.22.4-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/l/libsoup3-3.6.5-2.fc42.x86_64.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/l/libsoup3-3.6.5-6.fc42.x86_64.rpm
     repoid: updates
-    size: 400247
-    checksum: sha256:29709d870830227df970a3479e9ad03646fc8ba0c2892cfdbf00b7b70dae0bde
+    size: 400583
+    checksum: sha256:02deb3a870cbb8be498b449b3e96f11c33452540578dac3bf75550c915840a66
     name: libsoup3
-    evr: 3.6.5-2.fc42
-    sourcerpm: libsoup3-3.6.5-2.fc42.src.rpm
+    evr: 3.6.5-6.fc42
+    sourcerpm: libsoup3-3.6.5-6.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/l/libswresample-free-7.1.1-4.fc42.x86_64.rpm
     repoid: updates
     size: 69492
@@ -5786,13 +5779,20 @@ arches:
     name: pylint
     evr: 3.3.7-1.fc42
     sourcerpm: pylint-3.3.7-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/pyproject-srpm-macros-1.18.3-1.fc42.noarch.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/pyproject-srpm-macros-1.18.4-1.fc42.noarch.rpm
     repoid: updates
-    size: 13682
-    checksum: sha256:5eda627fa79eaa836e2292d735a49014ac87cc7f695149eef0ce9e6ed94551e5
+    size: 14059
+    checksum: sha256:ab9a16246e7cc03511380873f85cef7af6055f2010519d903f518e7f25a43efd
     name: pyproject-srpm-macros
-    evr: 1.18.3-1.fc42
-    sourcerpm: pyproject-rpm-macros-1.18.3-1.fc42.src.rpm
+    evr: 1.18.4-1.fc42
+    sourcerpm: pyproject-rpm-macros-1.18.4-1.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/python-pip-wheel-24.3.1-5.fc42.noarch.rpm
+    repoid: updates
+    size: 1261604
+    checksum: sha256:ce1fe16dd40680335c0cd4cf6b7b18f7854bed9d17a350531cc014e673ad86f3
+    name: python-pip-wheel
+    evr: 24.3.1-5.fc42
+    sourcerpm: python-pip-24.3.1-5.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/python-srpm-macros-3.13-5.fc42.noarch.rpm
     repoid: updates
     size: 23001
@@ -6619,20 +6619,20 @@ arches:
     name: seavgabios-bin
     evr: 1.17.0-5.fc42
     sourcerpm: seabios-1.17.0-5.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/s/selinux-policy-42.8-1.fc42.noarch.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/s/selinux-policy-42.9-1.fc42.noarch.rpm
     repoid: updates
-    size: 60944
-    checksum: sha256:08c84dd7d24b8fed19bd61b27aa62c8c67e4636b74e52ee309c32ad446b79a28
+    size: 61480
+    checksum: sha256:3d241e24fd0660370c9b05e4e0932e789d9dea089cf5c2ab2dcb615ec272c6f1
     name: selinux-policy
-    evr: 42.8-1.fc42
-    sourcerpm: selinux-policy-42.8-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/s/selinux-policy-targeted-42.8-1.fc42.noarch.rpm
+    evr: 42.9-1.fc42
+    sourcerpm: selinux-policy-42.9-1.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/s/selinux-policy-targeted-42.9-1.fc42.noarch.rpm
     repoid: updates
-    size: 7110275
-    checksum: sha256:012857bcd14ec901199077231fcfd763b4b5a589623a997a78b20022f19572bd
+    size: 7109877
+    checksum: sha256:b88670627fe4f0d6ad0f13c7ed6ccf32151b67a37abc2e047b79a8cc2252ba57
     name: selinux-policy-targeted
-    evr: 42.8-1.fc42
-    sourcerpm: selinux-policy-42.8-1.fc42.src.rpm
+    evr: 42.9-1.fc42
+    sourcerpm: selinux-policy-42.9-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/s/skopeo-1.20.0-1.fc42.x86_64.rpm
     repoid: updates
     size: 8061893
