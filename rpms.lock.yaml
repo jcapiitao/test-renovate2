@@ -487,13 +487,6 @@ arches:
     name: exempi
     evr: 2.6.4-7.fc42
     sourcerpm: exempi-2.6.4-7.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/releases/42/Everything/x86_64/os/Packages/e/expat-2.7.1-1.fc42.x86_64.rpm
-    repoid: fedora
-    size: 117827
-    checksum: sha256:c9e745fe28ce7935f6d885d0a1150550190610378ba81b5210f70a3de52de4a9
-    name: expat
-    evr: 2.7.1-1.fc42
-    sourcerpm: expat-2.7.1-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/releases/42/Everything/x86_64/os/Packages/f/fdk-aac-free-2.0.0-15.fc42.x86_64.rpm
     repoid: fedora
     size: 350591
@@ -4281,6 +4274,13 @@ arches:
     name: exiv2-libs
     evr: 0.28.6-2.fc42
     sourcerpm: exiv2-0.28.6-2.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/e/expat-2.7.2-1.fc42.x86_64.rpm
+    repoid: updates
+    size: 121806
+    checksum: sha256:8d6d49eb7dba89c3e3ec6a94b41dcc95c346cb9e11e1dff2872644289af3be31
+    name: expat
+    evr: 2.7.2-1.fc42
+    sourcerpm: expat-2.7.2-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/f/fedora-messaging-3.7.1-1.fc42.noarch.rpm
     repoid: updates
     size: 30705
@@ -5121,55 +5121,55 @@ arches:
     name: mercurial
     evr: 6.9.5-1.fc42
     sourcerpm: mercurial-6.9.5-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/m/mesa-dri-drivers-25.1.7-1.fc42.x86_64.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/m/mesa-dri-drivers-25.1.9-1.fc42.x86_64.rpm
     repoid: updates
-    size: 13089907
-    checksum: sha256:efd5d57f06199baf8e1686e466b10cd58106ad54e4ca74069616b69c85d71251
+    size: 13104031
+    checksum: sha256:5ed21c9af88c020f1c2d68696979db4dc249c8eea38e24935210c806c5702d48
     name: mesa-dri-drivers
-    evr: 25.1.7-1.fc42
-    sourcerpm: mesa-25.1.7-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/m/mesa-filesystem-25.1.7-1.fc42.x86_64.rpm
+    evr: 25.1.9-1.fc42
+    sourcerpm: mesa-25.1.9-1.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/m/mesa-filesystem-25.1.9-1.fc42.x86_64.rpm
     repoid: updates
-    size: 8940
-    checksum: sha256:259ec9d286a0833ee7f4abd38e74b30a0c8babedf1c09a68862a6c67a318534f
+    size: 9022
+    checksum: sha256:29608b21da69cda8889fec45185a5211f621ab0e123cae596536ecea843c061d
     name: mesa-filesystem
-    evr: 25.1.7-1.fc42
-    sourcerpm: mesa-25.1.7-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/m/mesa-libEGL-25.1.7-1.fc42.x86_64.rpm
+    evr: 25.1.9-1.fc42
+    sourcerpm: mesa-25.1.9-1.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/m/mesa-libEGL-25.1.9-1.fc42.x86_64.rpm
     repoid: updates
-    size: 129943
-    checksum: sha256:9eebd9c65ddee1b4b780b452098b89d2cc4286f9419cd1a6ee67c8d95acc4f64
+    size: 129996
+    checksum: sha256:95a29601c44bfb980dc4eff2033a40f153a77d857310c20e398881c26e3f7277
     name: mesa-libEGL
-    evr: 25.1.7-1.fc42
-    sourcerpm: mesa-25.1.7-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/m/mesa-libGL-25.1.7-1.fc42.x86_64.rpm
+    evr: 25.1.9-1.fc42
+    sourcerpm: mesa-25.1.9-1.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/m/mesa-libGL-25.1.9-1.fc42.x86_64.rpm
     repoid: updates
-    size: 124674
-    checksum: sha256:07350a185038220577cd7d555562e1a6543a317678fe50f55eedb0cc7686fb29
+    size: 124764
+    checksum: sha256:8e0cae7ba13255b0b280e424195561d87712f159cac5e66d061bdf0e502afa73
     name: mesa-libGL
-    evr: 25.1.7-1.fc42
-    sourcerpm: mesa-25.1.7-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/m/mesa-libgbm-25.1.7-1.fc42.x86_64.rpm
+    evr: 25.1.9-1.fc42
+    sourcerpm: mesa-25.1.9-1.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/m/mesa-libgbm-25.1.9-1.fc42.x86_64.rpm
     repoid: updates
-    size: 15091
-    checksum: sha256:28faf076868e792806492ca5bd5adf20b67dd7e200d566e5a40e3b78280816a3
+    size: 15182
+    checksum: sha256:30ad38e212e994c5a634e115afdbdc549ac132f8bac31a797aa03a6f237e0595
     name: mesa-libgbm
-    evr: 25.1.7-1.fc42
-    sourcerpm: mesa-25.1.7-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/m/mesa-va-drivers-25.1.7-1.fc42.x86_64.rpm
+    evr: 25.1.9-1.fc42
+    sourcerpm: mesa-25.1.9-1.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/m/mesa-va-drivers-25.1.9-1.fc42.x86_64.rpm
     repoid: updates
-    size: 7707
-    checksum: sha256:c4e000e1050fdae42e539f93ff94e2126633ec5cc8715774195a050704154cc1
+    size: 7780
+    checksum: sha256:96bb67d0f6525c1dff813874586345f5e4b4e018c6def75b927bb0243b76ade0
     name: mesa-va-drivers
-    evr: 25.1.7-1.fc42
-    sourcerpm: mesa-25.1.7-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/m/mesa-vulkan-drivers-25.1.7-1.fc42.x86_64.rpm
+    evr: 25.1.9-1.fc42
+    sourcerpm: mesa-25.1.9-1.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/m/mesa-vulkan-drivers-25.1.9-1.fc42.x86_64.rpm
     repoid: updates
-    size: 24537682
-    checksum: sha256:5c3a0c45c3a6191f4c9d871915d78fab629a6bd734490562e3022c3937499752
+    size: 24545983
+    checksum: sha256:c3c4c9c7df0693874a9bed03a8fd5b5f4c8fecc895595b0614584251f00e5f25
     name: mesa-vulkan-drivers
-    evr: 25.1.7-1.fc42
-    sourcerpm: mesa-25.1.7-1.fc42.src.rpm
+    evr: 25.1.9-1.fc42
+    sourcerpm: mesa-25.1.9-1.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/m/mpdecimal-4.0.1-1.fc42.x86_64.rpm
     repoid: updates
     size: 99388
@@ -5674,55 +5674,55 @@ arches:
     name: perl-vars
     evr: 1.05-519.fc42
     sourcerpm: perl-5.40.3-519.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/pipewire-1.4.8-1.fc42.x86_64.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/pipewire-1.4.8-2.fc42.x86_64.rpm
     repoid: updates
-    size: 137664
-    checksum: sha256:7672c2ba58b2da29b65cba8649a29f88c0bfc3284545bef7c4eebbf0b61acd04
+    size: 137735
+    checksum: sha256:a3c7364cb26fb072f7513af74d3041073ca1504af713ef83e92d21a765329c1f
     name: pipewire
-    evr: 1.4.8-1.fc42
-    sourcerpm: pipewire-1.4.8-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/pipewire-alsa-1.4.8-1.fc42.x86_64.rpm
+    evr: 1.4.8-2.fc42
+    sourcerpm: pipewire-1.4.8-2.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/pipewire-alsa-1.4.8-2.fc42.x86_64.rpm
     repoid: updates
-    size: 61863
-    checksum: sha256:14577980529c05605e5e3221eba44eafa62f70bf8e342572f64806df03a485cb
+    size: 61837
+    checksum: sha256:520b201c370fe590e00c881627209ccfaed2254ca6396d3f651b49879f60a7f3
     name: pipewire-alsa
-    evr: 1.4.8-1.fc42
-    sourcerpm: pipewire-1.4.8-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/pipewire-jack-audio-connection-kit-1.4.8-1.fc42.x86_64.rpm
+    evr: 1.4.8-2.fc42
+    sourcerpm: pipewire-1.4.8-2.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/pipewire-jack-audio-connection-kit-1.4.8-2.fc42.x86_64.rpm
     repoid: updates
-    size: 12546
-    checksum: sha256:a4a60e86b5006df77628c6a528753e3a5d1d7ae9429f7b252a5aec1b1d7d7b00
+    size: 12586
+    checksum: sha256:6394ac698a47fb890fb328687eb2d2786ee6096a3428f0205a32f90c96c278f7
     name: pipewire-jack-audio-connection-kit
-    evr: 1.4.8-1.fc42
-    sourcerpm: pipewire-1.4.8-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/pipewire-jack-audio-connection-kit-libs-1.4.8-1.fc42.x86_64.rpm
+    evr: 1.4.8-2.fc42
+    sourcerpm: pipewire-1.4.8-2.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/pipewire-jack-audio-connection-kit-libs-1.4.8-2.fc42.x86_64.rpm
     repoid: updates
-    size: 148396
-    checksum: sha256:ecf2c0dc142b338bf60b7e2ec19a4424a82e0905b95a553fc5ef254446eafb4f
+    size: 148666
+    checksum: sha256:c22d26d2de201a62da62deb0eef61a12ee5f72702eda6ccd11206bbd153a3784
     name: pipewire-jack-audio-connection-kit-libs
-    evr: 1.4.8-1.fc42
-    sourcerpm: pipewire-1.4.8-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/pipewire-libs-1.4.8-1.fc42.x86_64.rpm
+    evr: 1.4.8-2.fc42
+    sourcerpm: pipewire-1.4.8-2.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/pipewire-libs-1.4.8-2.fc42.x86_64.rpm
     repoid: updates
-    size: 2546452
-    checksum: sha256:7a59a1e153d23777a141520634cf27d568352ff8028b1fd577ca9850af3e4057
+    size: 2546949
+    checksum: sha256:a219487bac9d042709b4511676f981de5b007b4900625941d151fa2e1bbc6de2
     name: pipewire-libs
-    evr: 1.4.8-1.fc42
-    sourcerpm: pipewire-1.4.8-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/pipewire-plugin-libcamera-1.4.8-1.fc42.x86_64.rpm
+    evr: 1.4.8-2.fc42
+    sourcerpm: pipewire-1.4.8-2.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/pipewire-plugin-libcamera-1.4.8-2.fc42.x86_64.rpm
     repoid: updates
-    size: 77629
-    checksum: sha256:7a974a4cd8e35164eb67d70763a703e267e20ea0d11ba8b4f52c39a7b0c3cf8c
+    size: 77669
+    checksum: sha256:55bb344247bb751f07a653e652a8e1391bb1139a073efe3896819dc0245c1948
     name: pipewire-plugin-libcamera
-    evr: 1.4.8-1.fc42
-    sourcerpm: pipewire-1.4.8-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/pipewire-pulseaudio-1.4.8-1.fc42.x86_64.rpm
+    evr: 1.4.8-2.fc42
+    sourcerpm: pipewire-1.4.8-2.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/pipewire-pulseaudio-1.4.8-2.fc42.x86_64.rpm
     repoid: updates
-    size: 215295
-    checksum: sha256:2e667350339c96cb820501643692d3a62d9e6954f3fcfabf18f6a1708d94a5de
+    size: 215165
+    checksum: sha256:8fe88fef38a6bbd7f4808638c248facf3b22e54f050d1d0d47365a84af7f59d0
     name: pipewire-pulseaudio
-    evr: 1.4.8-1.fc42
-    sourcerpm: pipewire-1.4.8-1.fc42.src.rpm
+    evr: 1.4.8-2.fc42
+    sourcerpm: pipewire-1.4.8-2.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/p/pixman-0.46.2-1.fc42.x86_64.rpm
     repoid: updates
     size: 299759
@@ -6892,20 +6892,20 @@ arches:
     name: xdg-desktop-portal
     evr: 1.20.3-1.fc42
     sourcerpm: xdg-desktop-portal-1.20.3-1.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/x/xen-libs-4.19.3-2.fc42.x86_64.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/x/xen-libs-4.19.3-4.fc42.x86_64.rpm
     repoid: updates
-    size: 665861
-    checksum: sha256:40f99ac863ed11cae6b090c3943800f1a3d10d05b2e5c8dda0807f7d52d710a9
+    size: 665944
+    checksum: sha256:68a7dfe088f23a7f117ade6c5ab3a2ed3428c55cadd24bea009e9df080e10828
     name: xen-libs
-    evr: 4.19.3-2.fc42
-    sourcerpm: xen-4.19.3-2.fc42.src.rpm
-  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/x/xen-licenses-4.19.3-2.fc42.x86_64.rpm
+    evr: 4.19.3-4.fc42
+    sourcerpm: xen-4.19.3-4.fc42.src.rpm
+  - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/x/xen-licenses-4.19.3-4.fc42.x86_64.rpm
     repoid: updates
     size: 51785
-    checksum: sha256:3c70f4b84b360bfdc8640b208e000ac34d76ea2a637cc56421901afeb74e0d72
+    checksum: sha256:e8adc379d0772e8fe4bc8ee6342d4017ffac59df0bc8de08dc705e41fd37ebdd
     name: xen-licenses
-    evr: 4.19.3-2.fc42
-    sourcerpm: xen-4.19.3-2.fc42.src.rpm
+    evr: 4.19.3-4.fc42
+    sourcerpm: xen-4.19.3-4.fc42.src.rpm
   - url: https://download-ib01.fedoraproject.org/pub/fedora/linux/updates/42/Everything/x86_64/Packages/z/zlib-ng-2.2.5-2.fc42.x86_64.rpm
     repoid: updates
     size: 88593
